@@ -60,6 +60,27 @@ namespace QuickVerbs.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap application_exit {
+            get {
+                object obj = ResourceManager.GetObject("application_exit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap go_home {
+            get {
+                object obj = ResourceManager.GetObject("go_home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Misc_Settings_icon {
+            get {
+                object obj = ResourceManager.GetObject("Misc_Settings_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Play {
             get {
                 object obj = ResourceManager.GetObject("Play", resourceCulture);
