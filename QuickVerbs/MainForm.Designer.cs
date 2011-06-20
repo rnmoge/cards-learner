@@ -59,7 +59,15 @@
             this.radMenuItem12 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItemAbout = new Telerik.WinControls.UI.RadMenuItem();
             this.radPanelBarRight = new Telerik.WinControls.UI.RadPanelBar();
+            this.radPanelTop = new Telerik.WinControls.UI.RadPanel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.radLabelExample3 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabelExample2 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabelExample1 = new Telerik.WinControls.UI.RadLabel();
             this.radGroupBoxFields = new Telerik.WinControls.UI.RadGroupBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxInfinitive = new System.Windows.Forms.PictureBox();
@@ -81,9 +89,7 @@
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deselectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.radMenuItemExit = new Telerik.WinControls.UI.RadMenuItem();
-            this.radMenuItemSettings = new Telerik.WinControls.UI.RadMenuItem();
             this.desertTheme = new Telerik.WinControls.Themes.DesertTheme();
-            this.radMenu = new Telerik.WinControls.UI.RadMenu();
             this.radToolStripSeparatorItem2 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -91,20 +97,22 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.radToolStripSeparatorItem6 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.radToolStripSeparatorItem7 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
-            this.radPanelTop = new Telerik.WinControls.UI.RadPanel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.radLabelExample3 = new Telerik.WinControls.UI.RadLabel();
-            this.radLabelExample2 = new Telerik.WinControls.UI.RadLabel();
-            this.radLabelExample1 = new Telerik.WinControls.UI.RadLabel();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.radMenu = new Telerik.WinControls.UI.RadMenu();
+            this.radMenuItemSettings = new Telerik.WinControls.UI.RadMenuItem();
+            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radStatusBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelBarRight)).BeginInit();
             this.radPanelBarRight.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).BeginInit();
+            this.radPanelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBoxFields)).BeginInit();
             this.radGroupBoxFields.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -127,17 +135,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView)).BeginInit();
             this.contextMenuStripGrid.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radMenu)).BeginInit();
             this.contextMenuStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).BeginInit();
-            this.radPanelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -322,11 +322,6 @@
             // 
             // radMenuItemThemes
             // 
-            this.radMenuItemThemes.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radMenuItem22,
-            this.radMenuItem26,
-            this.radMenuItem11,
-            this.radMenuItem12});
             this.radMenuItemThemes.Name = "radMenuItemThemes";
             this.radMenuItemThemes.Text = "Change Theme";
             this.radMenuItemThemes.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
@@ -360,7 +355,7 @@
             // radMenuItemAbout
             // 
             this.radMenuItemAbout.ClickMode = Telerik.WinControls.ClickMode.Press;
-            this.radMenuItemAbout.Image = null;
+            this.radMenuItemAbout.Image = global::QuickVerbs.Properties.Resources.go_home;
             this.radMenuItemAbout.Name = "radMenuItemAbout";
             this.radMenuItemAbout.Text = "&О программе";
             this.radMenuItemAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -381,6 +376,78 @@
             this.radPanelBarRight.Name = "radPanelBarRight";
             this.radPanelBarRight.Size = new System.Drawing.Size(305, 440);
             this.radPanelBarRight.TabIndex = 0;
+            // 
+            // radPanelTop
+            // 
+            this.radPanelTop.AutoScroll = true;
+            this.radPanelTop.Controls.Add(this.pictureBox5);
+            this.radPanelTop.Controls.Add(this.pictureBox4);
+            this.radPanelTop.Controls.Add(this.pictureBox3);
+            this.radPanelTop.Controls.Add(this.radLabelExample3);
+            this.radPanelTop.Controls.Add(this.radLabelExample2);
+            this.radPanelTop.Controls.Add(this.radLabelExample1);
+            this.radPanelTop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radPanelTop.Location = new System.Drawing.Point(0, 0);
+            this.radPanelTop.Name = "radPanelTop";
+            this.radPanelTop.Size = new System.Drawing.Size(305, 246);
+            this.radPanelTop.TabIndex = 4;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(272, 170);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox5.TabIndex = 56;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(272, 97);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox4.TabIndex = 55;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(273, 24);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox3.TabIndex = 54;
+            this.pictureBox3.TabStop = false;
+            // 
+            // radLabelExample3
+            // 
+            this.radLabelExample3.AutoSize = false;
+            this.radLabelExample3.Location = new System.Drawing.Point(11, 170);
+            this.radLabelExample3.Name = "radLabelExample3";
+            this.radLabelExample3.Size = new System.Drawing.Size(224, 64);
+            this.radLabelExample3.TabIndex = 53;
+            this.radLabelExample3.Text = "Пример 3";
+            // 
+            // radLabelExample2
+            // 
+            this.radLabelExample2.AutoSize = false;
+            this.radLabelExample2.Location = new System.Drawing.Point(11, 97);
+            this.radLabelExample2.Name = "radLabelExample2";
+            this.radLabelExample2.Size = new System.Drawing.Size(224, 64);
+            this.radLabelExample2.TabIndex = 52;
+            this.radLabelExample2.Text = "Пример 2";
+            // 
+            // radLabelExample1
+            // 
+            this.radLabelExample1.AutoSize = false;
+            this.radLabelExample1.Location = new System.Drawing.Point(11, 24);
+            this.radLabelExample1.Name = "radLabelExample1";
+            this.radLabelExample1.Size = new System.Drawing.Size(224, 64);
+            this.radLabelExample1.TabIndex = 51;
+            this.radLabelExample1.Text = "Пример1";
             // 
             // radGroupBoxFields
             // 
@@ -415,6 +482,17 @@
             this.radGroupBoxFields.RootElement.Padding = new System.Windows.Forms.Padding(10, 20, 10, 10);
             this.radGroupBoxFields.Size = new System.Drawing.Size(305, 194);
             this.radGroupBoxFields.TabIndex = 3;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Enabled = false;
+            this.btnSave.Location = new System.Drawing.Point(218, 159);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 44;
+            this.btnSave.Text = "Сохранить";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // pictureBox2
             // 
@@ -697,36 +775,11 @@
             // 
             // radMenuItemExit
             // 
-            this.radMenuItemExit.Image = null;
+            this.radMenuItemExit.Image = global::QuickVerbs.Properties.Resources.application_exit;
             this.radMenuItemExit.Name = "radMenuItemExit";
             this.radMenuItemExit.Text = "&Выйти";
+            this.radMenuItemExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radMenuItemExit.Click += new System.EventHandler(this.radMenuItemExit_Click);
-            // 
-            // radMenuItemSettings
-            // 
-            this.radMenuItemSettings.Image = null;
-            this.radMenuItemSettings.Name = "radMenuItemSettings";
-            this.radMenuItemSettings.Text = "&Настройки";
-            this.radMenuItemSettings.Click += new System.EventHandler(this.radMenuItemSettings_Click);
-            // 
-            // radMenu
-            // 
-            this.radMenu.AllowMerge = false;
-            this.radMenu.BackColor = System.Drawing.Color.Transparent;
-            this.radMenu.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radMenuItemExit,
-            this.radMenuItemSettings,
-            this.radMenuItemAbout,
-            this.radMenuItemThemes});
-            this.radMenu.Location = new System.Drawing.Point(0, 0);
-            this.radMenu.Name = "radMenu";
-            // 
-            // 
-            // 
-            this.radMenu.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
-            this.radMenu.Size = new System.Drawing.Size(940, 20);
-            this.radMenu.TabIndex = 3;
-            this.radMenu.Text = "radMenu";
             // 
             // radToolStripSeparatorItem2
             // 
@@ -752,7 +805,7 @@
             this.toolStripMenuItem4,
             this.toolStripMenuItem2});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(162, 92);
+            this.contextMenuStrip.Size = new System.Drawing.Size(162, 114);
             // 
             // toolStripMenuItem3
             // 
@@ -763,6 +816,7 @@
             // 
             // toolStripMenuItem1
             // 
+            this.toolStripMenuItem1.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.toolStripMenuItem1.Text = "Настройки...";
@@ -770,6 +824,7 @@
             // 
             // toolStripMenuItem4
             // 
+            this.toolStripMenuItem4.Image = global::QuickVerbs.Properties.Resources.go_home;
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(161, 22);
             this.toolStripMenuItem4.Text = "О программе...";
@@ -777,14 +832,11 @@
             // 
             // toolStripMenuItem2
             // 
+            this.toolStripMenuItem2.Image = global::QuickVerbs.Properties.Resources.application_exit;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
             this.toolStripMenuItem2.Text = "Закрыть";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
-            // employeesBindingSource
-            // 
-            this.employeesBindingSource.DataMember = "Employees";
             // 
             // radToolStripSeparatorItem6
             // 
@@ -798,88 +850,36 @@
             this.radToolStripSeparatorItem7.Name = "radToolStripSeparatorItem7";
             this.radToolStripSeparatorItem7.Text = "radToolStripSeparatorItem1";
             // 
-            // radPanelTop
+            // radMenu
             // 
-            this.radPanelTop.AutoScroll = true;
-            this.radPanelTop.Controls.Add(this.pictureBox5);
-            this.radPanelTop.Controls.Add(this.pictureBox4);
-            this.radPanelTop.Controls.Add(this.pictureBox3);
-            this.radPanelTop.Controls.Add(this.radLabelExample3);
-            this.radPanelTop.Controls.Add(this.radLabelExample2);
-            this.radPanelTop.Controls.Add(this.radLabelExample1);
-            this.radPanelTop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radPanelTop.Location = new System.Drawing.Point(0, 0);
-            this.radPanelTop.Name = "radPanelTop";
-            this.radPanelTop.Size = new System.Drawing.Size(305, 246);
-            this.radPanelTop.TabIndex = 4;
+            this.radMenu.AllowMerge = false;
+            this.radMenu.BackColor = System.Drawing.Color.Transparent;
+            this.radMenu.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radMenuItemExit,
+            this.radMenuItemSettings,
+            this.radMenuItemAbout,
+            this.radMenuItemThemes});
+            this.radMenu.Location = new System.Drawing.Point(0, 0);
+            this.radMenu.Name = "radMenu";
             // 
-            // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(272, 170);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox5.TabIndex = 56;
-            this.pictureBox5.TabStop = false;
             // 
-            // pictureBox4
+            this.radMenu.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
+            this.radMenu.Size = new System.Drawing.Size(940, 20);
+            this.radMenu.TabIndex = 3;
+            this.radMenu.Text = "radMenu";
             // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(272, 97);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox4.TabIndex = 55;
-            this.pictureBox4.TabStop = false;
+            // radMenuItemSettings
             // 
-            // pictureBox3
+            this.radMenuItemSettings.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
+            this.radMenuItemSettings.Name = "radMenuItemSettings";
+            this.radMenuItemSettings.Text = "&Настройки";
+            this.radMenuItemSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radMenuItemSettings.Click += new System.EventHandler(this.radMenuItemSettings_Click);
             // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(273, 24);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox3.TabIndex = 54;
-            this.pictureBox3.TabStop = false;
+            // employeesBindingSource
             // 
-            // radLabelExample3
-            // 
-            this.radLabelExample3.AutoSize = false;
-            this.radLabelExample3.Location = new System.Drawing.Point(11, 170);
-            this.radLabelExample3.Name = "radLabelExample3";
-            this.radLabelExample3.Size = new System.Drawing.Size(224, 64);
-            this.radLabelExample3.TabIndex = 53;
-            this.radLabelExample3.Text = "Пример 3";
-            // 
-            // radLabelExample2
-            // 
-            this.radLabelExample2.AutoSize = false;
-            this.radLabelExample2.Location = new System.Drawing.Point(11, 97);
-            this.radLabelExample2.Name = "radLabelExample2";
-            this.radLabelExample2.Size = new System.Drawing.Size(224, 64);
-            this.radLabelExample2.TabIndex = 52;
-            this.radLabelExample2.Text = "Пример 2";
-            // 
-            // radLabelExample1
-            // 
-            this.radLabelExample1.AutoSize = false;
-            this.radLabelExample1.Location = new System.Drawing.Point(11, 24);
-            this.radLabelExample1.Name = "radLabelExample1";
-            this.radLabelExample1.Size = new System.Drawing.Size(224, 64);
-            this.radLabelExample1.TabIndex = 51;
-            this.radLabelExample1.Text = "Пример1";
-            // 
-            // btnSave
-            // 
-            this.btnSave.Enabled = false;
-            this.btnSave.Location = new System.Drawing.Point(218, 159);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 44;
-            this.btnSave.Text = "Сохранить";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.employeesBindingSource.DataMember = "Employees";
             // 
             // MainForm
             // 
@@ -910,6 +910,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.radPanelBarRight)).EndInit();
             this.radPanelBarRight.ResumeLayout(false);
             this.radPanelBarRight.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).EndInit();
+            this.radPanelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBoxFields)).EndInit();
             this.radGroupBoxFields.ResumeLayout(false);
             this.radGroupBoxFields.PerformLayout();
@@ -935,17 +943,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView)).EndInit();
             this.contextMenuStripGrid.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radMenu)).EndInit();
             this.contextMenuStrip.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.radMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).EndInit();
-            this.radPanelTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
