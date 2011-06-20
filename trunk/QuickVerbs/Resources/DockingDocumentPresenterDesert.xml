@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlTheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ThemeName="Desert">
+  <BuilderRegistrations>
+    <XmlStyleBuilderRegistration BuilderType="Telerik.WinControls.DefaultStyleBuilder">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="243, 243, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="243, 243, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.MinSize" Value="0, 20" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DockPresenterElementFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.BottomColor" Value="224, 123, 46" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.LeftWidth" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.RightWidth" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.TopWidth" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.BoxStyle" Value="SingleBorder" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="238, 172, 29" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DockPresenterElementBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="224, 123, 46" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="238, 172, 29" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.LinePrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadButtonItem.Image" Value="Qk16AQAAAAAAADYAAAAoAAAACQAAAAkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+              <XmlPropertySetting Property="Telerik.WinControls.Docking.CaptionButton.GlyphActiveHover" Value="Qk0OAwAAAAAAADYAAAAoAAAADQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPv//AD7//wAAAAAAAAAAAAAAAAAAAAAAPv//AD7//wAAAAAAAAAAAAAAAAAAAAAAAAAAADX//wA1//8ANf//AAAAAAAAAAAANf//ADX//wA1//8AAAAAAAAAAAAAAAAAAAAAAAAAAP7+/joANf//ADX//wA1//8ANf//ADX//wA1///+/v5IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+SwAu6P8ALuj/AC7o/wAv6P////9VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/lkAJMX/ACTF/wAkxf8AJcX//v7+ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/mIAHKX/AByl/wAcpf8AHKX/AByl/wAcpf/+/v5zAAAAAAAAAAAAAAAAAAAAAP7+/msAFpD/ABaQ/wAWkP/+/v58/v7+fQAWkP8AFpD/ABaQ/////4AAAAAAAAAAAAAAAAD+/v55ABN0/wATdP/9/f2GAAAAAAAAAAD9/f2OABN0/wATdP/9/f2OAAAAAAAAAAAAAAAA/f39hv39/Yr9/f2PAAAAAAAAAAAAAAAAAAAAAP39/Zz9/f2c/f39nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
+              <XmlPropertySetting Property="Telerik.WinControls.Docking.CaptionButton.GlyphActiveNormal" Value="Qk0OAwAAAAAAADYAAAAoAAAADQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYP//AGD//wAAAAAAAAAAAAAAAAAAAAAAYP//AGD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAFT//wBU//8AVP//AAAAAAAAAAAAVP//AFT//wBU//8AAAAAAAAAAAAAAAAAAAAAAAAAAP7+/h8AVP//AFT//wBU//8AVP//AFT//wBU///+/v4nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+KQBK7/8ASu//AErv/wBL7//+/v4vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jEAPNf/ADzX/wA81/8APdf//v7+OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jcAL8D/AC/A/wAvwP8AL8D/AC/A/wAvwP/+/v5CAAAAAAAAAAAAAAAAAAAAAP7+/j0AJbD/ACWw/wAlsP/+/v5I/v7+SQAlsP8AJbD/ACWw//7+/ksAAAAAAAAAAAAAAAD+/v5GACCY/wAgmP/+/v5PAAAAAAAAAAD///9VACCY/wAgmP////9VAAAAAAAAAAAAAAAA/v7+T/7+/lL+/v5WAAAAAAAAAAAAAAAAAAAAAP///2D///9g////YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
+              <XmlPropertySetting Property="Telerik.WinControls.Docking.CaptionButton.GlyphClicked" Value="Qk0OAwAAAAAAADYAAAAoAAAADQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+//8APv//AAAAAAAAAAAAAAAAAAAAAAA+//8APv//AAAAAAAAAAAAAAAAAAAAAAAAAAAANf//ADX//wA1//8AAAAAAAAAAAA1//8ANf//ADX//wAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+HwA1//8ANf//ADX//wA1//8ANf//ADX///7+/icAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4pAC7o/wAu6P8ALuj/AC/o//7+/i8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+MQAkxf8AJMX/ACTF/wAlxf/+/v44AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+NwAcpf8AHKX/AByl/wAcpf8AHKX/AByl//7+/kIAAAAAAAAAAAAAAAAAAAAA/v7+PQAWkP8AFpD/ABaQ//7+/kj+/v5JABaQ/wAWkP8AFpD//v7+SwAAAAAAAAAAAAAAAP7+/kYAE3T/ABN0//7+/k8AAAAAAAAAAP///1UAE3T/ABN0/////1UAAAAAAAAAAAAAAAD+/v5P/v7+Uv7+/lYAAAAAAAAAAAAAAAAAAAAA////YP///2D///9gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
+              <XmlPropertySetting Property="Telerik.WinControls.Docking.CaptionButton.GlyphInactiveHover" Value="Qk0OAwAAAAAAADYAAAAoAAAADQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPv//AD7//wAAAAAAAAAAAAAAAAAAAAAAPv//AD7//wAAAAAAAAAAAAAAAAAAAAAAAAAAADX//wA1//8ANf//AAAAAAAAAAAANf//ADX//wA1//8AAAAAAAAAAAAAAAAAAAAAAAAAAP7+/joANf//ADX//wA1//8ANf//ADX//wA1///+/v5IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+SwAu6P8ALuj/AC7o/wAv6P////9VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/lkAJMX/ACTF/wAkxf8AJcX//v7+ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/mIAHKX/AByl/wAcpf8AHKX/AByl/wAcpf/+/v5zAAAAAAAAAAAAAAAAAAAAAP7+/msAFpD/ABaQ/wAWkP/+/v58/v7+fQAWkP8AFpD/ABaQ/////4AAAAAAAAAAAAAAAAD+/v55ABN0/wATdP/9/f2GAAAAAAAAAAD9/f2OABN0/wATdP/9/f2OAAAAAAAAAAAAAAAA/f39hv39/Yr9/f2PAAAAAAAAAAAAAAAAAAAAAP39/Zz9/f2c/f39nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
+              <XmlPropertySetting Property="Telerik.WinControls.Docking.CaptionButton.GlyphInactiveNormal" Value="Qk0OAwAAAAAAADYAAAAoAAAADQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYP//AGD//wAAAAAAAAAAAAAAAAAAAAAAYP//AGD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAFT//wBU//8AVP//AAAAAAAAAAAAVP//AFT//wBU//8AAAAAAAAAAAAAAAAAAAAAAAAAAP7+/h8AVP//AFT//wBU//8AVP//AFT//wBU///+/v4nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+KQBK7/8ASu//AErv/wBL7//+/v4vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jEAPNf/ADzX/wA81/8APdf//v7+OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jcAL8D/AC/A/wAvwP8AL8D/AC/A/wAvwP/+/v5CAAAAAAAAAAAAAAAAAAAAAP7+/j0AJbD/ACWw/wAlsP/+/v5I/v7+SQAlsP8AJbD/ACWw//7+/ksAAAAAAAAAAAAAAAD+/v5GACCY/wAgmP/+/v5PAAAAAAAAAAD///9VACCY/wAgmP////9VAAAAAAAAAAAAAAAA/v7+T/7+/lL+/v5WAAAAAAAAAAAAAAAAAAAAAP///2D///9g////YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Padding" Value="0, 2, 0, 0" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Margin" Value="5, 0, 5, 0" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DockPresenterCaptionButtonClose" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Visibility" Value="Collapsed" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DropDownButtonBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DropDownButtonArrowButton" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Visibility" Value="Hidden" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RadArrowButtonFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Visibility" Value="Collapsed" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RadArrowButtonBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="238, 172, 29" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Bounds" Value="0, 0, 9, 4" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RadArrowButtonArrow" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Visibility" Value="Hidden" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Visibility" Value="Hidden" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.UI.TabVsShape|False" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadItem.StringAlignment" Value="Far" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadButtonItem.TextAlignment" Value="MiddleCenter" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="TabItem" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="238, 172, 29" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.ForeColor2" Value="238, 172, 29" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.ForeColor3" Value="238, 172, 29" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.ForeColor4" Value="238, 172, 29" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="TabItemBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.Font" Value="Segoe UI, 8.25pt" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="6, 6, 6" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="TabItemText" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlClassSelector ElementClass="TabHeadFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlClassSelector ElementClass="TabItemImage" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.Docking.DocumentPresenterControl" ElementType="Telerik.WinControls.RootRadElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+  </BuilderRegistrations>
+</XmlTheme>
