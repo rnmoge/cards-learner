@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlTheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ThemeName="Desert">
+  <BuilderRegistrations>
+    <XmlStyleBuilderRegistration BuilderType="Telerik.WinControls.DefaultStyleBuilder">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="207, 206, 188" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupPanel" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.4625323" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="0.467700273" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="253, 254, 254" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="241, 248, 251" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" Value="223, 240, 248" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" Value="217, 235, 245" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="GroupPanelItemFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.385012925" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.392764866" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="239, 239, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="227, 227, 207" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="213, 212, 189" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="225, 225, 204" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="158, 156, 118" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="79, 55, 27" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupHeaderItemsContainer" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.ArrowPrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.TextPrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.RootRadElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftColor" Value="222, 215, 222" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopColor" Value="222, 215, 222" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridHeaderElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.Font" Value="Tahoma, 9.75pt" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.TextRenderingHint" Value="ClearTypeGridFit" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.TableHeaderHeight" Value="32" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.GroupHeaderHeight" Value="22" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.MenuThemeName" Value="Vista" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="179, 178, 156" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.DrawHorizontalOuterBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.DrawVerticalOuterBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.CellSpacing" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridTableElement.RowHeight" Value="23" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridTableElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopColor" Value="222, 215, 222" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftColor" Value="222, 215, 222" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftWidth" Value="0" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridTableBodyElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="230, 240, 254" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="GroupPanelFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.BoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="149, 216, 248" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.InnerColor" Value="245, 250, 252" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.GradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="GroupPanelItemBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupHeaderList" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="226, 225, 208" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.333333343" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="189, 187, 159" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|1" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Padding" Value="0, 2, 0, 2" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="87, 84, 65" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupHeaderItem" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.333333343" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="224, 131, 58" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|1" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Padding" Value="0, 2, 0, 2" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="87, 84, 65" />
+              <XmlAnimatedPropertySetting EndValue="254, 226, 158" Property="Telerik.WinControls.VisualElement.BackColor" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupHeaderItem">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlClassSelector ElementClass="ScrollBarThumbFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.RootRadElement" ControlName="" ElementName="" />
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridTableElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+    <XmlStyleBuilderRegistration BuilderType="">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.385012925" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.4108527" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlAnimatedPropertySetting EndValue="255, 230, 165" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="252, 220, 143" Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="247, 196, 102" Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="255, 214, 134" Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" />
+              <XmlAnimatedPropertySetting EndValue="224, 138, 66" Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" />
+              <XmlAnimatedPropertySetting EndValue="White" Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridHeaderCellElement">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.385012925" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.392764866" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="239, 239, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="227, 227, 207" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="213, 212, 189" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="225, 225, 204" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="158, 156, 118" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="79, 55, 27" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.315245479" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.333333343" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="254, 254, 254" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="254, 254, 254" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="243, 244, 246" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="240, 241, 243" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="212, 212, 212" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridRowHeaderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.385012925" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.392764866" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="239, 239, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="227, 227, 207" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="213, 212, 189" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="225, 225, 204" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="158, 156, 118" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="79, 55, 27" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridHeaderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridTableHeaderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="HeaderIndentCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridTableHeaderRowElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+    <XmlStyleBuilderRegistration BuilderType="">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.5" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.666" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="240, 241, 243" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="Control" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="ControlDark" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="ControlLightLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="212, 212, 212" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightColor" Value="239, 235, 239" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomWidth" Value="0" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridFilterCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.TextPrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="27, 195, 246" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.RadButtonElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.8" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="231, 244, 252" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" Value="Blue" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" Value="128, 255, 255" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.ShouldPaint" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Visibility" Value="Collapsed" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFocus" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="White" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.RadTextBoxItem" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="OfficeGlassRect" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.8" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="2" />
+              <XmlAnimatedPropertySetting EndValue="White" Interval="0" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="White" Interval="0" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="Blue" Interval="0" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="Cyan" Interval="0" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Layouts.ImageAndTextLayoutPanel" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="243, 243, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="ControlText" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="White" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.RadButtonElement">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridIndentCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DataCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.ImagePrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="FilterRowHeader" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridFilterRowElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+    <XmlStyleBuilderRegistration BuilderType="">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="ControlLightLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="ControlLightLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="Control" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="ControlDark" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowHeaderCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="Control" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomColor" Value="ControlLight" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="IndentCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftWidth" Value="0" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DataCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DataCell">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.GridCellElement.IsPinned" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="ControlText" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomColor" Value="ControlLight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="243, 243, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="NewRowFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="Highlight" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="HighlightText" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="NewRowFill">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.GridRowElement.IsCurrent" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridNewRowElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+    <XmlStyleBuilderRegistration BuilderType="Telerik.WinControls.DefaultStyleBuilder">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|4" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="0, 240, 240, 243" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="0, 215, 215, 215" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.Font" Value="Tahoma, 9.75pt" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Margin" Value="3, 0, 3, 0" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridRowHeaderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="0, 0, 128, 255" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="103, 75, 38" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.ShowHorizontalLine" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.HorizontalLineColor" Value="103, 75, 38" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.TextAlignment" Value="MiddleLeft" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="87, 77, 59" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.DrawSignBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.DrawSignFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignStyle" Value="Arrow" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignPadding" Value="1, 3, 1, 3" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignWidth" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignBorderPadding" Value="5, 5, 5, 5" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SquareSignSize" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignSize" Value="12, 12" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupExpanderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting StartValueIsCurrentValue="False" EndValue="205, 127, 30" Interval="0" Property="Telerik.WinControls.VisualElement.ForeColor" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupExpanderCellElement">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridIndentCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="210, 97, 5" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.HorizontalLineColor" Value="210, 97, 5" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="Cell">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridGroupHeaderElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+    <XmlStyleBuilderRegistration BuilderType="">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="0, 50, 152" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.DrawSignBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.DrawSignFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignStyle" Value="Arrow" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignPadding" Value="1, 3, 1, 3" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignWidth" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignBorderPadding" Value="5, 5, 5, 5" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignSize" Value="12, 12" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridGroupExpanderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridIndentCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="OfficeGlass" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="Silver" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="Gray" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="Black" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="ControlLightLight" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.GridRowHeaderCellElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="87, 84, 65" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="0, 156, 208, 255" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="0, 156, 208, 255" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.5" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|4" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.Font" Value="Tahoma, 9pt" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="0, 152, 221, 252" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Margin" Value="3, 0, 3, 0" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="FourBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderTopWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightWidth" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderLeftWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBottomWidth" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderRightColor" Value="239, 235, 239" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.TextAlignment" Value="MiddleLeft" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DataCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="239, 247, 252" Interval="0" NumFrames="3" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="215, 239, 251" Interval="0" NumFrames="3" Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="19, 102, 213" Interval="0" NumFrames="3" Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="156, 208, 255" Interval="0" NumFrames="3" Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" />
+              <XmlAnimatedPropertySetting EndValue="152, 221, 252" Interval="0" NumFrames="3" Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.666" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="DataCell">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.GridCellElement.IsSelected" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="229, 181, 59" Interval="0" NumFrames="3" Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.666" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="255, 248, 235" />
+              <XmlAnimatedPropertySetting EndValue="254, 222, 154" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="254, 222, 154" Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition" BinaryOperator="OrOperator">
+                  <Condition1 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.UI.GridRowElement.IsSelected" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.UI.GridRowElement.IsCurrent" Value="True" />
+                  </Condition2>
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlAnimatedPropertySetting EndValue="252, 193, 62" Interval="0" NumFrames="3" Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.5" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.666" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="255, 241, 161" />
+              <XmlAnimatedPropertySetting EndValue="255, 235, 184" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="249, 210, 128" Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" AutoUnapply="False">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.GridRowElement.HotTracking" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlAnimatedPropertySetting EndValue="0, 238, 246, 252" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="0, 238, 246, 252" Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlComplexCondition">
+                    <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                      <Setting Property="Telerik.WinControls.UI.GridRowElement.IsCurrent" Value="True" />
+                    </Condition1>
+                    <Condition2 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                      <Setting Property="Telerik.WinControls.UI.GridRowElement.HotTracking" Value="True" />
+                    </Condition2>
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                    <Setting Property="Telerik.WinControls.UI.GridRowElement.IsSelected" Value="True" />
+                  </Condition2>
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="240, 240, 230" Property="Telerik.WinControls.VisualElement.BackColor" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.UI.GridRowElement.IsOdd" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlComplexCondition">
+                    <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                      <Setting Property="Telerik.WinControls.UI.GridRowElement.IsCurrent" Value="True" />
+                    </Condition1>
+                    <Condition2 xsi:type="XmlComplexCondition">
+                      <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                        <Setting Property="Telerik.WinControls.UI.GridRowElement.IsSelected" Value="True" />
+                      </Condition1>
+                      <Condition2 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                        <Setting Property="Telerik.WinControls.UI.GridRowElement.HotTracking" Value="True" />
+                      </Condition2>
+                    </Condition2>
+                  </Condition2>
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="False" />
+              <XmlAnimatedPropertySetting EndValue="0, 238, 246, 252" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="0, 238, 246, 252" Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                    <Setting Property="Telerik.WinControls.UI.GridRowElement.IsOdd" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlComplexCondition">
+                    <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                      <Setting Property="Telerik.WinControls.UI.GridRowElement.IsCurrent" Value="True" />
+                    </Condition1>
+                    <Condition2 xsi:type="XmlComplexCondition">
+                      <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                        <Setting Property="Telerik.WinControls.UI.GridRowElement.IsSelected" Value="True" />
+                      </Condition1>
+                      <Condition2 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                        <Setting Property="Telerik.WinControls.UI.GridRowElement.HotTracking" Value="True" />
+                      </Condition2>
+                    </Condition2>
+                  </Condition2>
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridDataRowElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+    <XmlStyleBuilderRegistration BuilderType="">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlClassSelector ElementClass="Cell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage" Value="0.385012925" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.GradientPercentage2" Value="0.40826872" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="239, 239, 229" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor2" Value="231, 231, 215" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor3" Value="223, 222, 209" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" Value="230, 230, 216" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawFill" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderColor" Value="158, 156, 118" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.SmoothingMode" Value="AntiAlias" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.DrawBorder" Value="True" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderGradientStyle" Value="Solid" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderBoxStyle" Value="OuterInnerBorders" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.LightVisualElement.BorderInnerColor" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="79, 55, 27" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlClassSelector ElementClass="RowHeaderCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignStyle" Value="Arrow" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.SignPadding" Value="5, 8, 5, 9" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.DrawSignFill" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.GridGroupExpanderCellElement.DrawSignBorder" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="GroupExpanderCell" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting StartValueIsCurrentValue="False" EndValue="244, 211, 127" Property="Telerik.WinControls.UI.LightVisualElement.BackColor4" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="RowFill">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.GridRowElement.HotTracking" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadGridView" ElementType="Telerik.WinControls.UI.GridGroupHeaderRowElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+  </BuilderRegistrations>
+</XmlTheme>

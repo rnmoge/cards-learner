@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlTheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ThemeName="Desert">
+  <BuilderRegistrations>
+    <XmlStyleBuilderRegistration BuilderType="Telerik.WinControls.DefaultStyleBuilder">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="Transparent" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" Value="Transparent" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="Transparent" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" Value="Transparent" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadTreeViewElement.CollapseImage" Value="Qk0aAgAAAAAAADYAAAAoAAAACwAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAMzMzP/Jycn/xsbG/8PDw//BwcH/vr6+/7y8vP+6urr/uLi4/wAAAADPz8//+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/uLi4/9DQ0P/4+Pj/5ubm/+Xl5f/k5OT/4+Pj/+Li4v/i4uL/4uLi//j4+P+6urr/0NDQ//j4+P/q6ur/6enp/+jo6P/m5ub/5OTk/+Li4v/i4uL/+Pj4/7y8vP/R0dH/+Pj4/+/v7//u7u7/7Ozs/+vr6//n5+f/5OTk/+Li4v/4+Pj/vr6+/9LS0v/4+Pj/9PT0/6Wlpf+jo6P/oKCg/5ycnP+ampr/4+Pj//j4+P/BwcH/1NTU//j4+P/4+Pj/9/f3//T09P/y8vL/7Ozs/+jo6P/k5OT/+Pj4/8PDw//V1dX/+Pj4//z8/P/7+/v/9/f3//X19f/u7u7/6enp/+Xl5f/4+Pj/xsbG/9fX1//4+Pj///////z8/P/4+Pj/9PT0/+/v7//q6ur/5ubm//j4+P/Jycn/2NjY//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4/8zMzP8AAAAA2NjY/9fX1//V1dX/1NTU/9LS0v/R0dH/0NDQ/9DQ0P/Pz8//AAAAAA==" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadTreeViewElement.ExpandImage" Value="Qk0aAgAAAAAAADYAAAAoAAAACwAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAMzMzP/Jycn/xsbG/8PDw//BwcH/vr6+/7y8vP+6urr/uLi4/wAAAADPz8//+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/uLi4/9DQ0P/4+Pj/5ubm/+Xl5f/k5OT/4+Pj/+Li4v/i4uL/4uLi//j4+P+6urr/0NDQ//j4+P/q6ur/6enp/+jo6P+ampr/5OTk/+Li4v/i4uL/+Pj4/7y8vP/R0dH/+Pj4/+/v7//u7u7/7Ozs/5ycnP/n5+f/5OTk/+Li4v/4+Pj/vr6+/9LS0v/4+Pj/9PT0/6Wlpf+jo6P/oKCg/5ycnP+ampr/4+Pj//j4+P/BwcH/1NTU//j4+P/4+Pj/9/f3//T09P+jo6P/7Ozs/+jo6P/k5OT/+Pj4/8PDw//V1dX/+Pj4//z8/P/7+/v/9/f3/6Wlpf/u7u7/6enp/+Xl5f/4+Pj/xsbG/9fX1//4+Pj///////z8/P/4+Pj/9PT0/+/v7//q6ur/5ubm//j4+P/Jycn/2NjY//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4/8zMzP8AAAAA2NjY/9fX1//V1dX/1NTU/9LS0v/R0dH/0NDQ/9DQ0P/Pz8//AAAAAA==" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadTreeViewElement.HoveredCollapseImage" Value="Qk0aAgAAAAAAADYAAAAoAAAACwAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAMzMzP/Jycn/xsbG/8PDw//BwcH/vr6+/7y8vP+6urr/uLi4/wAAAADPz8//+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/uLi4/9DQ0P/4+Pj/5ubm/+Xl5f/k5OT/4+Pj/+Li4v/i4uL/4uLi//j4+P+6urr/0NDQ//j4+P/q6ur/6enp/+jo6P/m5ub/5OTk/+Li4v/i4uL/+Pj4/7y8vP/R0dH/+Pj4/+/v7//u7u7/7Ozs/+vr6//n5+f/5OTk/+Li4v/4+Pj/vr6+/9LS0v/4+Pj/9PT0/6Wlpf+jo6P/oKCg/5ycnP+ampr/4+Pj//j4+P/BwcH/1NTU//j4+P/4+Pj/9/f3//T09P/y8vL/7Ozs/+jo6P/k5OT/+Pj4/8PDw//V1dX/+Pj4//z8/P/7+/v/9/f3//X19f/u7u7/6enp/+Xl5f/4+Pj/xsbG/9fX1//4+Pj///////z8/P/4+Pj/9PT0/+/v7//q6ur/5ubm//j4+P/Jycn/2NjY//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4/8zMzP8AAAAA2NjY/9fX1//V1dX/1NTU/9LS0v/R0dH/0NDQ/9DQ0P/Pz8//AAAAAA==" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadTreeViewElement.HoveredExpandImage" Value="Qk0aAgAAAAAAADYAAAAoAAAACwAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAMzMzP/Jycn/xsbG/8PDw//BwcH/vr6+/7y8vP+6urr/uLi4/wAAAADPz8//+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/uLi4/9DQ0P/4+Pj/5ubm/+Xl5f/k5OT/4+Pj/+Li4v/i4uL/4uLi//j4+P+6urr/0NDQ//j4+P/q6ur/6enp/+jo6P+ampr/5OTk/+Li4v/i4uL/+Pj4/7y8vP/R0dH/+Pj4/+/v7//u7u7/7Ozs/5ycnP/n5+f/5OTk/+Li4v/4+Pj/vr6+/9LS0v/4+Pj/9PT0/6Wlpf+jo6P/oKCg/5ycnP+ampr/4+Pj//j4+P/BwcH/1NTU//j4+P/4+Pj/9/f3//T09P+jo6P/7Ozs/+jo6P/k5OT/+Pj4/8PDw//V1dX/+Pj4//z8/P/7+/v/9/f3/6Wlpf/u7u7/6enp/+Xl5f/4+Pj/xsbG/9fX1//4+Pj///////z8/P/4+Pj/9PT0/+/v7//q6ur/5ubm//j4+P/Jycn/2NjY//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4//j4+P/4+Pj/+Pj4/8zMzP8AAAAA2NjY/9fX1//V1dX/1NTU/9LS0v/R0dH/0NDQ/9DQ0P/Pz8//AAAAAA==" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadTreeViewElement.ShowLines" Value="False" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.RadTreeViewElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.NumberOfColors" Value="2" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.UI.TreeNodeUI.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="Black" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.TreeNodeUI" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientPercentage" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientPercentage2" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.NumberOfColors" Value="2" />
+              <XmlAnimatedPropertySetting EndValue="255, 229, 164" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="247, 196, 103" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor2" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.BorderColor" Value="224, 123, 46" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.TreeNodeUI" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition" BinaryOperator="OrOperator">
+                  <Condition1 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.RadElement.IsFocused" Value="True" />
+                  </Condition2>
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientPercentage" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientPercentage2" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.NumberOfColors" Value="4" />
+              <XmlAnimatedPropertySetting EndValue="255, 228, 152" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="253, 210, 122" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="252, 203, 111" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="250, 185, 79" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor4" />
+              <XmlAnimatedPropertySetting EndValue="163, 77, 35" Property="Telerik.WinControls.UI.TreeNodeUI.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.TreeNodeUI" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.UI.TreeNodeUI.Selected" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="False" />
+                  </Condition2>
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.Font" Value="Tahoma, 8.6pt" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.TextRenderingHint" Value="ClearTypeGridFit" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.RootRadElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.UI.TreeNodeUI.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.NumberOfColors" Value="2" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor3" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.TreeNodeUI" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                    <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlComplexCondition">
+                    <Condition1 xsi:type="XmlSimpleCondition">
+                      <Setting Property="Telerik.WinControls.UI.TreeNodeUI.Selected" Value="False" />
+                    </Condition1>
+                    <Condition2 xsi:type="XmlSimpleCondition">
+                      <Setting Property="Telerik.WinControls.UI.TreeNodeUI.InSelectedPath" Value="False" />
+                    </Condition2>
+                  </Condition2>
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="246, 191, 77" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="226, 132, 37" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="211, 121, 30" Property="Telerik.WinControls.UI.TreeNodeUI.BorderColor" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.NumberOfColors" Value="2" />
+              <XmlAnimatedPropertySetting EndValue="Transparent" Property="Telerik.WinControls.UI.TreeNodeUI.BackColor3" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|2" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientPercentage" Value="1" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.GradientPercentage2" Value="0.453258783" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.TreeNodeUI.BackColor4" Value="Transparent" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.TreeNodeUI">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                    <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.UI.TreeNodeUI.InSelectedPath" Value="True" />
+                  </Condition2>
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeControlType" ControlType="Telerik.WinControls.UI.RadTreeView" ElementType="Telerik.WinControls.RootRadElement" ControlName="" ElementName="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+  </BuilderRegistrations>
+</XmlTheme>

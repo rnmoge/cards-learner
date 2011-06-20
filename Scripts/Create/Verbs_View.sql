@@ -1,0 +1,2 @@
+SELECT v.FirstForm, v.FirstFormSound, v.SecondForm, v.SecondFormSound, v.ThirdForm, v.ThirdFormSound, v.Translate, c.ID as CategoryNumber, c.Name as CategoryName, vc.Closed, v.Example1, v.ExampleSound1, v.Example2, v.ExampleSound2, v.Example3, v.ExampleSound3, vc.RightAnswers, vc.ID
+FROM Verbs v, Verb_Category vc, category c WHERE v.ID = vc.ID_Verb AND vc.ID_Category = c.ID
