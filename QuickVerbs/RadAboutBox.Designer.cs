@@ -27,25 +27,24 @@ namespace QuickVerbs
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RadAboutBox));
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.logoPictureBox = new System.Windows.Forms.PictureBox();
             this.radLabelProductName = new Telerik.WinControls.UI.RadLabel();
             this.radLabelVersion = new Telerik.WinControls.UI.RadLabel();
             this.radLabelCopyright = new Telerik.WinControls.UI.RadLabel();
             this.radTextBoxDescription = new Telerik.WinControls.UI.RadTextBox();
-            this.okRadButton = new Telerik.WinControls.UI.RadButton();
             this.radLabelCompanyName = new Telerik.WinControls.UI.RadLabel();
             this.linkLabel = new System.Windows.Forms.LinkLabel();
             this.linkLabelUA = new System.Windows.Forms.LinkLabel();
+            this.okRadButton = new Telerik.WinControls.UI.RadButton();
             this.tableLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelProductName)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelVersion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelCopyright)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxDescription)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.okRadButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelCompanyName)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.okRadButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,8 +52,8 @@ namespace QuickVerbs
             // 
             this.tableLayoutPanel.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel.ColumnCount = 2;
-            this.tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.86775F));
-            this.tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.13225F));
+            this.tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.4918F));
+            this.tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 54.5082F));
             this.tableLayoutPanel.Controls.Add(this.logoPictureBox, 0, 0);
             this.tableLayoutPanel.Controls.Add(this.radLabelProductName, 1, 0);
             this.tableLayoutPanel.Controls.Add(this.radLabelVersion, 1, 1);
@@ -68,26 +67,26 @@ namespace QuickVerbs
             this.tableLayoutPanel.Location = new System.Drawing.Point(9, 9);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 8;
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.177853F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.177853F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.177853F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.177853F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.177853F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.459459F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.93694F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51351F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(431, 222);
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.43316F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.18355F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.42197F));
+            this.tableLayoutPanel.Size = new System.Drawing.Size(488, 201);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // logoPictureBox
             // 
             this.logoPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.logoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("logoPictureBox.Image")));
+            this.logoPictureBox.ErrorImage = null;
+            this.logoPictureBox.Image = global::QuickVerbs.Properties.Resources.PracticalEnglish;
             this.logoPictureBox.Location = new System.Drawing.Point(3, 3);
             this.logoPictureBox.Name = "logoPictureBox";
             this.tableLayoutPanel.SetRowSpan(this.logoPictureBox, 8);
-            this.logoPictureBox.Size = new System.Drawing.Size(195, 216);
+            this.logoPictureBox.Size = new System.Drawing.Size(215, 195);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.logoPictureBox.TabIndex = 12;
             this.logoPictureBox.TabStop = false;
@@ -95,7 +94,7 @@ namespace QuickVerbs
             // radLabelProductName
             // 
             this.radLabelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelProductName.Location = new System.Drawing.Point(207, 0);
+            this.radLabelProductName.Location = new System.Drawing.Point(227, 0);
             this.radLabelProductName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelProductName.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelProductName.Name = "radLabelProductName";
@@ -111,7 +110,7 @@ namespace QuickVerbs
             // radLabelVersion
             // 
             this.radLabelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelVersion.Location = new System.Drawing.Point(207, 18);
+            this.radLabelVersion.Location = new System.Drawing.Point(227, 18);
             this.radLabelVersion.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelVersion.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelVersion.Name = "radLabelVersion";
@@ -127,7 +126,7 @@ namespace QuickVerbs
             // radLabelCopyright
             // 
             this.radLabelCopyright.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelCopyright.Location = new System.Drawing.Point(207, 36);
+            this.radLabelCopyright.Location = new System.Drawing.Point(227, 36);
             this.radLabelCopyright.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelCopyright.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelCopyright.Name = "radLabelCopyright";
@@ -143,7 +142,7 @@ namespace QuickVerbs
             // radTextBoxDescription
             // 
             this.radTextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radTextBoxDescription.Location = new System.Drawing.Point(207, 113);
+            this.radTextBoxDescription.Location = new System.Drawing.Point(227, 115);
             this.radTextBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.radTextBoxDescription.Multiline = true;
             this.radTextBoxDescription.Name = "radTextBoxDescription";
@@ -152,28 +151,16 @@ namespace QuickVerbs
             // 
             // 
             this.radTextBoxDescription.RootElement.StretchVertically = true;
-            this.radTextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.radTextBoxDescription.Size = new System.Drawing.Size(221, 75);
+            this.radTextBoxDescription.Size = new System.Drawing.Size(258, 54);
             this.radTextBoxDescription.TabIndex = 23;
             this.radTextBoxDescription.TabStop = false;
             this.radTextBoxDescription.Text = "Description";
             this.radTextBoxDescription.ThemeName = "Desert";
             // 
-            // okRadButton
-            // 
-            this.okRadButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.okRadButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okRadButton.Location = new System.Drawing.Point(353, 201);
-            this.okRadButton.Name = "okRadButton";
-            this.okRadButton.Size = new System.Drawing.Size(75, 18);
-            this.okRadButton.TabIndex = 24;
-            this.okRadButton.Text = "Закрыть";
-            this.okRadButton.ThemeName = "Desert";
-            // 
             // radLabelCompanyName
             // 
             this.radLabelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelCompanyName.Location = new System.Drawing.Point(207, 54);
+            this.radLabelCompanyName.Location = new System.Drawing.Point(227, 54);
             this.radLabelCompanyName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelCompanyName.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelCompanyName.Name = "radLabelCompanyName";
@@ -188,7 +175,7 @@ namespace QuickVerbs
             // 
             // linkLabel
             // 
-            this.linkLabel.Location = new System.Drawing.Point(207, 72);
+            this.linkLabel.Location = new System.Drawing.Point(227, 72);
             this.linkLabel.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.linkLabel.Name = "linkLabel";
             this.linkLabel.Size = new System.Drawing.Size(217, 13);
@@ -200,7 +187,7 @@ namespace QuickVerbs
             // 
             // linkLabelUA
             // 
-            this.linkLabelUA.Location = new System.Drawing.Point(207, 90);
+            this.linkLabelUA.Location = new System.Drawing.Point(227, 90);
             this.linkLabelUA.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.linkLabelUA.Name = "linkLabelUA";
             this.linkLabelUA.Size = new System.Drawing.Size(217, 13);
@@ -210,12 +197,23 @@ namespace QuickVerbs
             this.linkLabelUA.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.linkLabelUA.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelUA_LinkClicked);
             // 
+            // okRadButton
+            // 
+            this.okRadButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.okRadButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.okRadButton.Location = new System.Drawing.Point(410, 180);
+            this.okRadButton.Name = "okRadButton";
+            this.okRadButton.Size = new System.Drawing.Size(75, 18);
+            this.okRadButton.TabIndex = 24;
+            this.okRadButton.Text = "Закрыть";
+            this.okRadButton.ThemeName = "Desert";
+            // 
             // RadAboutBox
             // 
             this.AcceptButton = this.okRadButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 240);
+            this.ClientSize = new System.Drawing.Size(506, 219);
             this.Controls.Add(this.tableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -237,8 +235,8 @@ namespace QuickVerbs
             ((System.ComponentModel.ISupportInitialize)(this.radLabelVersion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelCopyright)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxDescription)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.okRadButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelCompanyName)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.okRadButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

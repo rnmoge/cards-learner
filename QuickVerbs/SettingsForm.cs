@@ -1,12 +1,19 @@
 using System;
+using System.Windows.Forms;
+using System.Resources;
+using System.Reflection;
+using System.Drawing;
 
 namespace QuickVerbs
 {
     public partial class SettingsForm : Telerik.WinControls.UI.RadForm
     {
-        public SettingsForm()
+        MainForm mainForm;
+
+        public SettingsForm(MainForm mainForm)
         {
             InitializeComponent();
+            this.mainForm = mainForm;
         }
 
         private void SettingsForm_Load(object sender, EventArgs e)
@@ -16,6 +23,9 @@ namespace QuickVerbs
             radSpinEditorCountRightAnswers.Value = Properties.Settings.Default.RightAnswers;
             radSpinEditorCountVerbs.Value = Properties.Settings.Default.LessonVerbs;
             radComboBoxPronoun.SelectedIndex = Properties.Settings.Default.Pronoun;
+            radComboBoxPronoun.ImageList = mainForm.imageList;
+            radComboBoxItemUSA.ImageIndex = 0;
+            radComboBoxItemUK.ImageIndex = 1;
         }
 
         private void btnOK_Click(object sender, EventArgs e)
