@@ -54,7 +54,7 @@ namespace QuickVerbs
             this.radLabelPronoun = new Telerik.WinControls.UI.RadLabel();
             this.radComboBoxPronoun = new Telerik.WinControls.UI.RadComboBox();
             this.radComboBoxItemUSA = new Telerik.WinControls.UI.RadComboBoxItem();
-            this.radComboBoxItem7 = new Telerik.WinControls.UI.RadComboBoxItem();
+            this.radComboBoxItemUK = new Telerik.WinControls.UI.RadComboBoxItem();
             ((System.ComponentModel.ISupportInitialize)(this.btnOK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCancel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radComboBoxCategory)).BeginInit();
@@ -74,7 +74,7 @@ namespace QuickVerbs
             // 
             this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Location = new System.Drawing.Point(140, 264);
+            this.btnOK.Location = new System.Drawing.Point(140, 260);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(70, 24);
             this.btnOK.TabIndex = 10;
@@ -86,7 +86,7 @@ namespace QuickVerbs
             // 
             this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(216, 264);
+            this.btnCancel.Location = new System.Drawing.Point(216, 260);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(70, 24);
             this.btnCancel.TabIndex = 11;
@@ -309,7 +309,7 @@ namespace QuickVerbs
             this.radComboBoxPronoun.IntegralHeight = true;
             this.radComboBoxPronoun.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radComboBoxItemUSA,
-            this.radComboBoxItem7});
+            this.radComboBoxItemUK});
             this.radComboBoxPronoun.Location = new System.Drawing.Point(125, 200);
             this.radComboBoxPronoun.MaxDropDownItems = 5;
             this.radComboBoxPronoun.Name = "radComboBoxPronoun";
@@ -326,13 +326,20 @@ namespace QuickVerbs
             // 
             // radComboBoxItemUSA
             // 
+            this.radComboBoxItemUSA.Image = null;
+            this.radComboBoxItemUSA.ImageAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.radComboBoxItemUSA.Name = "radComboBoxItemUSA";
             this.radComboBoxItemUSA.Text = "Американское";
+            this.radComboBoxItemUSA.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.radComboBoxItemUSA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            ((Telerik.WinControls.Primitives.TextPrimitive)(this.radComboBoxItemUSA.GetChildAt(2).GetChildAt(1).GetChildAt(0))).AutoSize = true;
             // 
-            // radComboBoxItem7
+            // radComboBoxItemUK
             // 
-            this.radComboBoxItem7.Name = "radComboBoxItem7";
-            this.radComboBoxItem7.Text = "Британское";
+            this.radComboBoxItemUK.Image = null;
+            this.radComboBoxItemUK.Name = "radComboBoxItemUK";
+            this.radComboBoxItemUK.Text = "Британское";
+            this.radComboBoxItemUK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             // 
             // SettingsForm
             // 
@@ -340,7 +347,7 @@ namespace QuickVerbs
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(298, 311);
+            this.ClientSize = new System.Drawing.Size(298, 298);
             this.Controls.Add(this.radLabelPronoun);
             this.Controls.Add(this.radComboBoxPronoun);
             this.Controls.Add(this.radSpinEditorCountVerbs);
@@ -403,7 +410,7 @@ namespace QuickVerbs
         private Telerik.WinControls.UI.RadLabel radLabelPronoun;
         private Telerik.WinControls.UI.RadComboBox radComboBoxPronoun;
         private Telerik.WinControls.UI.RadComboBoxItem radComboBoxItemUSA;
-        private Telerik.WinControls.UI.RadComboBoxItem radComboBoxItem7;
+        private Telerik.WinControls.UI.RadComboBoxItem radComboBoxItemUK;
         private Telerik.WinControls.UI.RadComboBoxItem radComboBoxItemPeriod1;
         private Telerik.WinControls.UI.RadComboBoxItem radComboBoxItemPeriod2;
         private Telerik.WinControls.UI.RadComboBoxItem radComboBoxItemPeriod3;
