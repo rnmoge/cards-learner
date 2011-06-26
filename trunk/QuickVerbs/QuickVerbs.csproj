@@ -141,6 +141,8 @@
     <None Include="images\go_home.ico" />
     <None Include="images\logo_ico16.png" />
     <None Include="images\ico_logo\logo_ico16.gif" />
+    <None Include="images\hourglass_plus.png" />
+    <None Include="images\hourglass_exclamation.png" />
     <Content Include="images\Play.png" />
     <None Include="images\PracticalEnglish.jpg" />
     <None Include="images\quick32.ico" />
