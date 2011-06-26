@@ -35,8 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>quick32.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -139,7 +138,6 @@
     <None Include="images\quick16.png" />
     <None Include="images\application_exit.ico" />
     <None Include="images\go_home.ico" />
-    <None Include="images\logo_ico16.png" />
     <None Include="images\ico_logo\logo_ico16.gif" />
     <None Include="images\hourglass_plus.png" />
     <None Include="images\hourglass_exclamation.png" />
@@ -148,6 +146,7 @@
     <None Include="images\quick32.ico" />
     <None Include="images\quick24.ico" />
     <None Include="images\quick16.ico" />
+    <Content Include="quick32.ico" />
     <Content Include="Resources\BusinessGrid.xml">
       <SubType>Designer</SubType>
     </Content>
