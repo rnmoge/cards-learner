@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Обучающая программа для эффективного и быстрого запоминания английских неправильных глаголов.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Practical English LLC")]
-[assembly: AssemblyProduct("Quick Verbs")]
+[assembly: AssemblyProduct("QuickVerbs")]
 [assembly: AssemblyCopyright("Copyright ©  2011 Practical English")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

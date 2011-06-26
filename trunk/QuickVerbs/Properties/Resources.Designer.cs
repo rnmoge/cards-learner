@@ -87,5 +87,54 @@ namespace QuickVerbs.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap PracticalEnglish {
+            get {
+                object obj = ResourceManager.GetObject("PracticalEnglish", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap quick16 {
+            get {
+                object obj = ResourceManager.GetObject("quick16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon quick161 {
+            get {
+                object obj = ResourceManager.GetObject("quick161", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon quick24 {
+            get {
+                object obj = ResourceManager.GetObject("quick24", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon quick32 {
+            get {
+                object obj = ResourceManager.GetObject("quick32", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap united_kingdom_flag {
+            get {
+                object obj = ResourceManager.GetObject("united_kingdom_flag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap united_states_flag {
+            get {
+                object obj = ResourceManager.GetObject("united_states_flag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
