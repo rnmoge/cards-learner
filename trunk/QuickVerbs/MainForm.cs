@@ -327,8 +327,8 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            ShowSettings(FormStartPosition.CenterScreen);
-            FillData();
+            if (ShowSettings(FormStartPosition.CenterScreen))
+                FillData();
         }
         //--------------------------------------------------------------------------
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
@@ -347,8 +347,8 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private void radMenuItemSettings_Click(object sender, EventArgs e)
         {
-            ShowSettings(FormStartPosition.CenterParent);
-            FillData();
+            if (ShowSettings(FormStartPosition.CenterParent))
+                FillData();
         }
         //--------------------------------------------------------------------------
         private bool ShowSettings(FormStartPosition sp)
