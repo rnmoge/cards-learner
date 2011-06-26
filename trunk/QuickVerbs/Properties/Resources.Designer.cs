@@ -74,6 +74,20 @@ namespace QuickVerbs.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap hourglass_exclamation {
+            get {
+                object obj = ResourceManager.GetObject("hourglass_exclamation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap hourglass_plus {
+            get {
+                object obj = ResourceManager.GetObject("hourglass_plus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Misc_Settings_icon {
             get {
                 object obj = ResourceManager.GetObject("Misc_Settings_icon", resourceCulture);
