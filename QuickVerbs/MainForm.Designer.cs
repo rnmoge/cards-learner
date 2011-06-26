@@ -749,10 +749,11 @@
             this.selectAllToolStripMenuItem,
             this.deselectAllToolStripMenuItem});
             this.contextMenuStripGrid.Name = "contextMenuStripGrid";
-            this.contextMenuStripGrid.Size = new System.Drawing.Size(219, 48);
+            this.contextMenuStripGrid.Size = new System.Drawing.Size(219, 70);
             // 
             // selectAllToolStripMenuItem
             // 
+            this.selectAllToolStripMenuItem.Image = global::QuickVerbs.Properties.Resources.hourglass_plus;
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
             this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.selectAllToolStripMenuItem.Text = "Выбрать все";
@@ -760,6 +761,7 @@
             // 
             // deselectAllToolStripMenuItem
             // 
+            this.deselectAllToolStripMenuItem.Image = global::QuickVerbs.Properties.Resources.hourglass_exclamation;
             this.deselectAllToolStripMenuItem.Name = "deselectAllToolStripMenuItem";
             this.deselectAllToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.deselectAllToolStripMenuItem.Text = "Отменить выбор для всех";
