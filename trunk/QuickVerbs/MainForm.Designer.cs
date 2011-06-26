@@ -57,20 +57,12 @@
             this.radMenuItem26 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem11 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem12 = new Telerik.WinControls.UI.RadMenuItem();
-            this.radMenuItemAbout = new Telerik.WinControls.UI.RadMenuItem();
             this.radPanelBarRight = new Telerik.WinControls.UI.RadPanelBar();
             this.radPanelTop = new Telerik.WinControls.UI.RadPanel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.radLabelExample3 = new Telerik.WinControls.UI.RadLabel();
             this.radLabelExample2 = new Telerik.WinControls.UI.RadLabel();
             this.radLabelExample1 = new Telerik.WinControls.UI.RadLabel();
             this.radGroupBoxFields = new Telerik.WinControls.UI.RadGroupBox();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxInfinitive = new System.Windows.Forms.PictureBox();
             this.radCheckBoxChecked = new Telerik.WinControls.UI.RadCheckBox();
             this.radTextBoxTranslate = new Telerik.WinControls.UI.RadTextBox();
             this.radTextBoxInfinitive = new Telerik.WinControls.UI.RadTextBox();
@@ -88,36 +80,38 @@
             this.contextMenuStripGrid = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deselectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.radMenuItemExit = new Telerik.WinControls.UI.RadMenuItem();
             this.desertTheme = new Telerik.WinControls.Themes.DesertTheme();
             this.radToolStripSeparatorItem2 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.radToolStripSeparatorItem6 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
+            this.radToolStripSeparatorItem7 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
+            this.radMenu = new Telerik.WinControls.UI.RadMenu();
+            this.radMenuItemExit = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItemSettings = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItemAbout = new Telerik.WinControls.UI.RadMenuItem();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxInfinitive = new System.Windows.Forms.PictureBox();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.radToolStripSeparatorItem6 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
-            this.radToolStripSeparatorItem7 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
-            this.radMenu = new Telerik.WinControls.UI.RadMenu();
-            this.radMenuItemSettings = new Telerik.WinControls.UI.RadMenuItem();
             this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radStatusBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelBarRight)).BeginInit();
             this.radPanelBarRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).BeginInit();
             this.radPanelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBoxFields)).BeginInit();
             this.radGroupBoxFields.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radCheckBoxChecked)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxTranslate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxInfinitive)).BeginInit();
@@ -137,6 +131,12 @@
             this.contextMenuStripGrid.SuspendLayout();
             this.contextMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -144,6 +144,7 @@
             // radStatusBar1
             // 
             this.radStatusBar1.AutoSize = true;
+            this.radStatusBar1.ImageList = this.imageList;
             this.radStatusBar1.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radButtonElementCategories,
             this.radToolStripSeparatorItem3,
@@ -248,10 +249,12 @@
             // 
             // radLabelElementEnglish
             // 
+            this.radLabelElementEnglish.ImageIndex = -1;
             this.radLabelElementEnglish.Margin = new System.Windows.Forms.Padding(1);
             this.radLabelElementEnglish.Name = "radLabelElementEnglish";
             this.radStatusBar1.SetSpring(this.radLabelElementEnglish, false);
             this.radLabelElementEnglish.Text = "English ({0})";
+            this.radLabelElementEnglish.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radLabelElementEnglish.TextWrap = true;
             // 
             // radMenuItem1
@@ -352,15 +355,6 @@
             this.radMenuItem12.Tag = "Vista";
             this.radMenuItem12.Text = "Vista";
             // 
-            // radMenuItemAbout
-            // 
-            this.radMenuItemAbout.ClickMode = Telerik.WinControls.ClickMode.Press;
-            this.radMenuItemAbout.Image = global::QuickVerbs.Properties.Resources.go_home;
-            this.radMenuItemAbout.Name = "radMenuItemAbout";
-            this.radMenuItemAbout.Text = "&О программе";
-            this.radMenuItemAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radMenuItemAbout.Click += new System.EventHandler(this.radMenuItemAbout_Click);
-            // 
             // radPanelBarRight
             // 
             this.radPanelBarRight.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -392,67 +386,39 @@
             this.radPanelTop.Size = new System.Drawing.Size(305, 246);
             this.radPanelTop.TabIndex = 4;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(272, 170);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox5.TabIndex = 56;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(272, 97);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox4.TabIndex = 55;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(273, 24);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox3.TabIndex = 54;
-            this.pictureBox3.TabStop = false;
-            // 
             // radLabelExample3
             // 
             this.radLabelExample3.AutoSize = false;
+            this.radLabelExample3.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.radLabelExample3.Location = new System.Drawing.Point(11, 170);
             this.radLabelExample3.Name = "radLabelExample3";
-            this.radLabelExample3.Size = new System.Drawing.Size(224, 64);
+            this.radLabelExample3.Size = new System.Drawing.Size(251, 65);
             this.radLabelExample3.TabIndex = 53;
             this.radLabelExample3.Text = "Пример 3";
             // 
             // radLabelExample2
             // 
             this.radLabelExample2.AutoSize = false;
+            this.radLabelExample2.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.radLabelExample2.Location = new System.Drawing.Point(11, 97);
             this.radLabelExample2.Name = "radLabelExample2";
-            this.radLabelExample2.Size = new System.Drawing.Size(224, 64);
+            this.radLabelExample2.Size = new System.Drawing.Size(251, 65);
             this.radLabelExample2.TabIndex = 52;
             this.radLabelExample2.Text = "Пример 2";
             // 
             // radLabelExample1
             // 
             this.radLabelExample1.AutoSize = false;
+            this.radLabelExample1.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.radLabelExample1.Location = new System.Drawing.Point(11, 24);
             this.radLabelExample1.Name = "radLabelExample1";
-            this.radLabelExample1.Size = new System.Drawing.Size(224, 64);
+            this.radLabelExample1.Size = new System.Drawing.Size(251, 65);
             this.radLabelExample1.TabIndex = 51;
             this.radLabelExample1.Text = "Пример1";
             // 
             // radGroupBoxFields
             // 
             this.radGroupBoxFields.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
-            this.radGroupBoxFields.Controls.Add(this.btnSave);
             this.radGroupBoxFields.Controls.Add(this.pictureBox2);
             this.radGroupBoxFields.Controls.Add(this.pictureBox1);
             this.radGroupBoxFields.Controls.Add(this.pictureBoxInfinitive);
@@ -483,59 +449,9 @@
             this.radGroupBoxFields.Size = new System.Drawing.Size(305, 194);
             this.radGroupBoxFields.TabIndex = 3;
             // 
-            // btnSave
-            // 
-            this.btnSave.Enabled = false;
-            this.btnSave.Location = new System.Drawing.Point(218, 159);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 44;
-            this.btnSave.Text = "Сохранить";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(271, 82);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox2.TabIndex = 42;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
-            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
-            this.pictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseUp);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(271, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox1.TabIndex = 41;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
-            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
-            // 
-            // pictureBoxInfinitive
-            // 
-            this.pictureBoxInfinitive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfinitive.BackgroundImage")));
-            this.pictureBoxInfinitive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxInfinitive.Location = new System.Drawing.Point(272, 12);
-            this.pictureBoxInfinitive.Name = "pictureBoxInfinitive";
-            this.pictureBoxInfinitive.Size = new System.Drawing.Size(21, 23);
-            this.pictureBoxInfinitive.TabIndex = 40;
-            this.pictureBoxInfinitive.TabStop = false;
-            this.pictureBoxInfinitive.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
-            this.pictureBoxInfinitive.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
-            this.pictureBoxInfinitive.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxInfinitive_MouseUp);
-            // 
             // radCheckBoxChecked
             // 
-            this.radCheckBoxChecked.Location = new System.Drawing.Point(100, 157);
+            this.radCheckBoxChecked.Location = new System.Drawing.Point(100, 160);
             this.radCheckBoxChecked.Name = "radCheckBoxChecked";
             this.radCheckBoxChecked.Size = new System.Drawing.Size(15, 15);
             this.radCheckBoxChecked.TabIndex = 9;
@@ -545,7 +461,7 @@
             // 
             this.radTextBoxTranslate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
             this.radTextBoxTranslate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
-            this.radTextBoxTranslate.Location = new System.Drawing.Point(100, 119);
+            this.radTextBoxTranslate.Location = new System.Drawing.Point(100, 123);
             this.radTextBoxTranslate.Name = "radTextBoxTranslate";
             this.radTextBoxTranslate.ReadOnly = true;
             // 
@@ -560,7 +476,7 @@
             // radTextBoxInfinitive
             // 
             this.radTextBoxInfinitive.Controls.Add(this.radLabel2);
-            this.radTextBoxInfinitive.Location = new System.Drawing.Point(100, 14);
+            this.radTextBoxInfinitive.Location = new System.Drawing.Point(100, 18);
             this.radTextBoxInfinitive.Name = "radTextBoxInfinitive";
             this.radTextBoxInfinitive.ReadOnly = true;
             this.radTextBoxInfinitive.Size = new System.Drawing.Size(161, 20);
@@ -589,7 +505,7 @@
             this.radLabelInfinitive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
             this.radLabelInfinitive.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.radLabelInfinitive.ForeColor = System.Drawing.Color.Black;
-            this.radLabelInfinitive.Location = new System.Drawing.Point(9, 15);
+            this.radLabelInfinitive.Location = new System.Drawing.Point(9, 19);
             this.radLabelInfinitive.Name = "radLabelInfinitive";
             // 
             // 
@@ -604,7 +520,7 @@
             // radTextBoxPast
             // 
             this.radTextBoxPast.Controls.Add(this.radLabel7);
-            this.radTextBoxPast.Location = new System.Drawing.Point(100, 49);
+            this.radTextBoxPast.Location = new System.Drawing.Point(100, 53);
             this.radTextBoxPast.Name = "radTextBoxPast";
             this.radTextBoxPast.ReadOnly = true;
             this.radTextBoxPast.Size = new System.Drawing.Size(161, 20);
@@ -629,7 +545,7 @@
             // 
             // radTextBoxPastParticiple
             // 
-            this.radTextBoxPastParticiple.Location = new System.Drawing.Point(100, 84);
+            this.radTextBoxPastParticiple.Location = new System.Drawing.Point(100, 88);
             this.radTextBoxPastParticiple.Name = "radTextBoxPastParticiple";
             this.radTextBoxPastParticiple.ReadOnly = true;
             this.radTextBoxPastParticiple.Size = new System.Drawing.Size(161, 20);
@@ -643,7 +559,7 @@
             this.radLabelChecked.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
             this.radLabelChecked.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.radLabelChecked.ForeColor = System.Drawing.Color.Black;
-            this.radLabelChecked.Location = new System.Drawing.Point(9, 155);
+            this.radLabelChecked.Location = new System.Drawing.Point(9, 158);
             this.radLabelChecked.Name = "radLabelChecked";
             // 
             // 
@@ -661,7 +577,7 @@
             this.lblTextBoxTranslate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
             this.lblTextBoxTranslate.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.lblTextBoxTranslate.ForeColor = System.Drawing.Color.Black;
-            this.lblTextBoxTranslate.Location = new System.Drawing.Point(9, 120);
+            this.lblTextBoxTranslate.Location = new System.Drawing.Point(9, 124);
             this.lblTextBoxTranslate.Name = "lblTextBoxTranslate";
             // 
             // 
@@ -679,7 +595,7 @@
             this.radLabelPastParticiple.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
             this.radLabelPastParticiple.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.radLabelPastParticiple.ForeColor = System.Drawing.Color.Black;
-            this.radLabelPastParticiple.Location = new System.Drawing.Point(9, 85);
+            this.radLabelPastParticiple.Location = new System.Drawing.Point(9, 89);
             this.radLabelPastParticiple.Name = "radLabelPastParticiple";
             // 
             // 
@@ -697,7 +613,7 @@
             this.radLabelPast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(208)))));
             this.radLabelPast.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.radLabelPast.ForeColor = System.Drawing.Color.Black;
-            this.radLabelPast.Location = new System.Drawing.Point(9, 50);
+            this.radLabelPast.Location = new System.Drawing.Point(9, 54);
             this.radLabelPast.Name = "radLabelPast";
             // 
             // 
@@ -773,14 +689,6 @@
             this.deselectAllToolStripMenuItem.Text = "Отменить выбор для всех";
             this.deselectAllToolStripMenuItem.Click += new System.EventHandler(this.deselectAllToolStripMenuItem_Click);
             // 
-            // radMenuItemExit
-            // 
-            this.radMenuItemExit.Image = global::QuickVerbs.Properties.Resources.application_exit;
-            this.radMenuItemExit.Name = "radMenuItemExit";
-            this.radMenuItemExit.Text = "&Выйти";
-            this.radMenuItemExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radMenuItemExit.Click += new System.EventHandler(this.radMenuItemExit_Click);
-            // 
             // radToolStripSeparatorItem2
             // 
             this.radToolStripSeparatorItem2.Margin = new System.Windows.Forms.Padding(1);
@@ -805,38 +713,7 @@
             this.toolStripMenuItem4,
             this.toolStripMenuItem2});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(162, 114);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem3.Text = "QuickVerbs...";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem1.Text = "Настройки...";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Image = global::QuickVerbs.Properties.Resources.go_home;
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem4.Text = "О программе...";
-            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Image = global::QuickVerbs.Properties.Resources.application_exit;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem2.Text = "Закрыть";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            this.contextMenuStrip.Size = new System.Drawing.Size(162, 92);
             // 
             // radToolStripSeparatorItem6
             // 
@@ -869,6 +746,14 @@
             this.radMenu.TabIndex = 3;
             this.radMenu.Text = "radMenu";
             // 
+            // radMenuItemExit
+            // 
+            this.radMenuItemExit.Image = global::QuickVerbs.Properties.Resources.application_exit;
+            this.radMenuItemExit.Name = "radMenuItemExit";
+            this.radMenuItemExit.Text = "&Выйти";
+            this.radMenuItemExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radMenuItemExit.Click += new System.EventHandler(this.radMenuItemExit_Click);
+            // 
             // radMenuItemSettings
             // 
             this.radMenuItemSettings.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
@@ -877,9 +762,126 @@
             this.radMenuItemSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radMenuItemSettings.Click += new System.EventHandler(this.radMenuItemSettings_Click);
             // 
+            // radMenuItemAbout
+            // 
+            this.radMenuItemAbout.ClickMode = Telerik.WinControls.ClickMode.Press;
+            this.radMenuItemAbout.Image = global::QuickVerbs.Properties.Resources.go_home;
+            this.radMenuItemAbout.Name = "radMenuItemAbout";
+            this.radMenuItemAbout.Text = "&О программе";
+            this.radMenuItemAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radMenuItemAbout.Click += new System.EventHandler(this.radMenuItemAbout_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(272, 170);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox5.TabIndex = 56;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(272, 97);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox4.TabIndex = 55;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(273, 24);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox3.TabIndex = 54;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(271, 86);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox2.TabIndex = 42;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
+            this.pictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseUp);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(271, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox1.TabIndex = 41;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
+            // 
+            // pictureBoxInfinitive
+            // 
+            this.pictureBoxInfinitive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfinitive.BackgroundImage")));
+            this.pictureBoxInfinitive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxInfinitive.Location = new System.Drawing.Point(272, 16);
+            this.pictureBoxInfinitive.Name = "pictureBoxInfinitive";
+            this.pictureBoxInfinitive.Size = new System.Drawing.Size(21, 23);
+            this.pictureBoxInfinitive.TabIndex = 40;
+            this.pictureBoxInfinitive.TabStop = false;
+            this.pictureBoxInfinitive.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
+            this.pictureBoxInfinitive.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
+            this.pictureBoxInfinitive.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxInfinitive_MouseUp);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Image = global::QuickVerbs.Properties.Resources.quick161;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem3.Text = "QuickVerbs...";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem1.Text = "Настройки...";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Image = global::QuickVerbs.Properties.Resources.go_home;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem4.Text = "О программе...";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Image = global::QuickVerbs.Properties.Resources.application_exit;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem2.Text = "Закрыть";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
             // employeesBindingSource
             // 
             this.employeesBindingSource.DataMember = "Employees";
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "united_states_flag.png");
+            this.imageList.Images.SetKeyName(1, "united_kingdom_flag.png");
             // 
             // MainForm
             // 
@@ -890,6 +892,7 @@
             this.Controls.Add(this.radMenu);
             this.Controls.Add(this.radPanelBarRight);
             this.Controls.Add(this.radStatusBar1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             // 
             // 
@@ -912,18 +915,12 @@
             this.radPanelBarRight.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).EndInit();
             this.radPanelTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBoxFields)).EndInit();
             this.radGroupBoxFields.ResumeLayout(false);
             this.radGroupBoxFields.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radCheckBoxChecked)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxTranslate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxInfinitive)).EndInit();
@@ -945,6 +942,12 @@
             this.contextMenuStripGrid.ResumeLayout(false);
             this.contextMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
@@ -1025,6 +1028,6 @@
         private Telerik.WinControls.UI.RadLabel radLabelExample3;
         private Telerik.WinControls.UI.RadLabel radLabelExample2;
         private Telerik.WinControls.UI.RadLabel radLabelExample1;
-        private System.Windows.Forms.Button btnSave;
+        public System.Windows.Forms.ImageList imageList;
     }
 }

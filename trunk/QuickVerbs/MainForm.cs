@@ -11,7 +11,7 @@ namespace QuickVerbs
     /// example form
     /// </summary>
     public partial class MainForm : Telerik.WinControls.UI.RadForm
-    {        
+    {
         const string sCategory = "Уровень: {0}";
         const string sVerbs = "Глаголов: {0}";
         const string sPronoun = "English ({0})";
@@ -23,7 +23,6 @@ namespace QuickVerbs
         public DataView dv;
         private int category = 1;
         private string categoryName;
-        private int startEdit = 0;
         private bool firstStart = true;
 
         /// <summary>
@@ -62,7 +61,7 @@ namespace QuickVerbs
             dv = new DataView(dt);
 
             dv.RowFilter = String.Format(sCatNumber, category);
-                       
+
             radGridView.DataSource = null;
             radGridView.DataSource = dv;
             radLabelElementVerbCount.Text = String.Format(sVerbs, dv.Count);
@@ -119,9 +118,15 @@ namespace QuickVerbs
             radButtonElementCategories.Text = String.Format(sCategory, categoryName);
 
             if (Properties.Settings.Default.Pronoun == 0)
+            {
                 radLabelElementEnglish.Text = String.Format(sPronoun, "US");
+                radLabelElementEnglish.ImageIndex = 0;
+            }
             else if (Properties.Settings.Default.Pronoun == 1)
+            {
                 radLabelElementEnglish.Text = String.Format(sPronoun, "BR");
+                radLabelElementEnglish.ImageIndex = 1;
+            }
         }
         //--------------------------------------------------------------------------
         private void radMenuItemExit_Click(object sender, EventArgs e)
@@ -173,38 +178,37 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private void radCheckBoxElementPanel_Click(object sender, EventArgs e)
         {
-            if (firstStart)
+            radGridView.Anchor = (AnchorStyles.Bottom | AnchorStyles.Top | AnchorStyles.Left);
+            try
             {
-                if (!Properties.Settings.Default.ShowPanel)
-                {
-                    this.Width = this.Width - radPanelBarRight.Width;
-                    radPanelBarRight.Visible = false;
-                    radGridView.Width = radGridView.Width + radPanelBarRight.Width + 10;
-                }
-                return;
-            }
+                this.MinimumSize = new Size(0, 0);
 
-            if (!radCheckBoxElementPanel.Checked)
-            {
-                radPanelBarRight.Visible = true;
-                Width = Width + radPanelBarRight.Width;
-                radGridView.Width = radGridView.Width - radPanelBarRight.Width - 10;
+                if (firstStart)
+                {
+                    if (!Properties.Settings.Default.ShowPanel)
+                    {
+                        this.Width = this.Width - radPanelBarRight.Width - 12;
+                        radPanelBarRight.Visible = false;
+                    }
+                    this.MinimumSize = new Size(this.Width, this.Height);
+                    return;
+                }
+
+                if (!radCheckBoxElementPanel.Checked)
+                {
+                    radPanelBarRight.Visible = true;
+                    Width = Width + radPanelBarRight.Width + 12;
+                }
+                else
+                {
+                    radPanelBarRight.Visible = false;
+                    Width = Width - radPanelBarRight.Width - 12;
+                }
+                this.MinimumSize = new Size(this.Width, this.Height);
             }
-            else
+            finally
             {
-                radPanelBarRight.Visible = false;
-                Width = Width - radPanelBarRight.Width;
-                radGridView.Width = radGridView.Width + radPanelBarRight.Width + 10;
-            }
-        }
-        //--------------------------------------------------------------------------
-        private void FirstPanelShow()
-        {
-            if (radCheckBoxElementPanel.Checked)
-            {
-                radPanelBarRight.Visible = false;
-                Width = Width - radPanelBarRight.Width - 11;
-                radGridView.Width = radGridView.Width + radPanelBarRight.Width + 11;
+                radGridView.Anchor = (AnchorStyles.Bottom | AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right);
             }
         }
         //--------------------------------------------------------------------------
@@ -216,7 +220,6 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private void radGridView_CurrentRowChanged(object sender, CurrentRowChangedEventArgs e)
         {
-            startEdit = 0;
             ResetProgressBar();
 
             radLabelExample1.Text = radGridView.CurrentRow.Cells[10].Value.ToString();
@@ -233,25 +236,16 @@ namespace QuickVerbs
                 radCheckBoxChecked.Checked = false;
             else
                 radCheckBoxChecked.Checked = (bool)radGridView.CurrentRow.Cells[9].Value;
-
-            startEdit = 1;
-            btnSave.Enabled = false;
         }
         //--------------------------------------------------------------------------
         private void radComboBoxCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
             ResetProgressBar();
-
-            if (startEdit == 1)
-                btnSave.Enabled = true;
         }
         //--------------------------------------------------------------------------
         private void radCheckBoxChecked_ToggleStateChanged(object sender, StateChangedEventArgs args)
         {
             ResetProgressBar();
-
-            if (startEdit == 1)
-                btnSave.Enabled = true;
         }
         //--------------------------------------------------------------------------
         private void SaveData(bool all, bool set)
@@ -291,8 +285,6 @@ namespace QuickVerbs
             df.Update("Verb_Category", pc, paramobj, "AND");
 
             this.radProgressBarElement.Value1 = 80;
-
-            btnSave.Enabled = false;
 
             int cr = radGridView.CurrentRow.Index;
 
@@ -361,10 +353,10 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private bool ShowSettings(FormStartPosition sp)
         {
-            SettingsForm sf = new SettingsForm();
+            SettingsForm sf = new SettingsForm(this);
             sf.StartPosition = sp;
             sf.ThemeName = this.ThemeName;
-            return (sf.ShowDialog() == DialogResult.OK);
+            return (sf.ShowDialog(this) == DialogResult.OK);
         }
         //--------------------------------------------------------------------------
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
@@ -452,7 +444,6 @@ namespace QuickVerbs
         {
             if (ShowInTaskbar == false)
                 ShowInTaskbar = true;
-            //radGridView.Anchor = (AnchorStyles.Bottom | AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right);
         }
         //--------------------------------------------------------------------------
         private void radButtonElementCategories_Click(object sender, EventArgs e)
