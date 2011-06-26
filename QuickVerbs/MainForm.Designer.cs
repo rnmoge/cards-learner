@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.radStatusBar1 = new Telerik.WinControls.UI.RadStatusStrip();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.radButtonElementCategories = new Telerik.WinControls.UI.RadButtonElement();
             this.radToolStripSeparatorItem3 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.radLabelElementVerbCount = new Telerik.WinControls.UI.RadLabelElement();
@@ -59,10 +60,16 @@
             this.radMenuItem12 = new Telerik.WinControls.UI.RadMenuItem();
             this.radPanelBarRight = new Telerik.WinControls.UI.RadPanelBar();
             this.radPanelTop = new Telerik.WinControls.UI.RadPanel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.radLabelExample3 = new Telerik.WinControls.UI.RadLabel();
             this.radLabelExample2 = new Telerik.WinControls.UI.RadLabel();
             this.radLabelExample1 = new Telerik.WinControls.UI.RadLabel();
             this.radGroupBoxFields = new Telerik.WinControls.UI.RadGroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxInfinitive = new System.Windows.Forms.PictureBox();
             this.radCheckBoxChecked = new Telerik.WinControls.UI.RadCheckBox();
             this.radTextBoxTranslate = new Telerik.WinControls.UI.RadTextBox();
             this.radTextBoxInfinitive = new Telerik.WinControls.UI.RadTextBox();
@@ -84,34 +91,33 @@
             this.radToolStripSeparatorItem2 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.radToolStripSeparatorItem6 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.radToolStripSeparatorItem7 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.radMenu = new Telerik.WinControls.UI.RadMenu();
             this.radMenuItemExit = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItemSettings = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItemAbout = new Telerik.WinControls.UI.RadMenuItem();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxInfinitive = new System.Windows.Forms.PictureBox();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.imageList = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radStatusBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelBarRight)).BeginInit();
             this.radPanelBarRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).BeginInit();
             this.radPanelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBoxFields)).BeginInit();
             this.radGroupBoxFields.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radCheckBoxChecked)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxTranslate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxInfinitive)).BeginInit();
@@ -131,12 +137,6 @@
             this.contextMenuStripGrid.SuspendLayout();
             this.contextMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -167,6 +167,13 @@
             ((Telerik.WinControls.UI.RadStatusBarElement)(this.radStatusBar1.GetChildAt(0))).Padding = new System.Windows.Forms.Padding(2);
             ((Telerik.WinControls.UI.RadStatusBarElement)(this.radStatusBar1.GetChildAt(0))).MinSize = new System.Drawing.Size(0, 19);
             ((Telerik.WinControls.UI.StatusBarBoxLayout)(this.radStatusBar1.GetChildAt(0).GetChildAt(3))).Margin = new System.Windows.Forms.Padding(0, 0, 14, 0);
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "united_states_flag.png");
+            this.imageList.Images.SetKeyName(1, "united_kingdom_flag.png");
             // 
             // radButtonElementCategories
             // 
@@ -386,6 +393,36 @@
             this.radPanelTop.Size = new System.Drawing.Size(305, 246);
             this.radPanelTop.TabIndex = 4;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(272, 170);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox5.TabIndex = 56;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(272, 97);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox4.TabIndex = 55;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(273, 24);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox3.TabIndex = 54;
+            this.pictureBox3.TabStop = false;
+            // 
             // radLabelExample3
             // 
             this.radLabelExample3.AutoSize = false;
@@ -448,6 +485,45 @@
             this.radGroupBoxFields.RootElement.Padding = new System.Windows.Forms.Padding(10, 20, 10, 10);
             this.radGroupBoxFields.Size = new System.Drawing.Size(305, 194);
             this.radGroupBoxFields.TabIndex = 3;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(271, 86);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox2.TabIndex = 42;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
+            this.pictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseUp);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(271, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(22, 23);
+            this.pictureBox1.TabIndex = 41;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
+            // 
+            // pictureBoxInfinitive
+            // 
+            this.pictureBoxInfinitive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfinitive.BackgroundImage")));
+            this.pictureBoxInfinitive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxInfinitive.Location = new System.Drawing.Point(272, 16);
+            this.pictureBoxInfinitive.Name = "pictureBoxInfinitive";
+            this.pictureBoxInfinitive.Size = new System.Drawing.Size(21, 23);
+            this.pictureBoxInfinitive.TabIndex = 40;
+            this.pictureBoxInfinitive.TabStop = false;
+            this.pictureBoxInfinitive.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
+            this.pictureBoxInfinitive.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
+            this.pictureBoxInfinitive.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxInfinitive_MouseUp);
             // 
             // radCheckBoxChecked
             // 
@@ -715,6 +791,38 @@
             this.contextMenuStrip.Name = "contextMenuStrip";
             this.contextMenuStrip.Size = new System.Drawing.Size(162, 92);
             // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Image = global::QuickVerbs.Properties.Resources.quick16;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem3.Text = "QuickVerbs...";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem1.Text = "Настройки...";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Image = global::QuickVerbs.Properties.Resources.go_home;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem4.Text = "О программе...";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Image = global::QuickVerbs.Properties.Resources.application_exit;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem2.Text = "Закрыть";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
             // radToolStripSeparatorItem6
             // 
             this.radToolStripSeparatorItem6.Margin = new System.Windows.Forms.Padding(1);
@@ -771,117 +879,9 @@
             this.radMenuItemAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radMenuItemAbout.Click += new System.EventHandler(this.radMenuItemAbout_Click);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(272, 170);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox5.TabIndex = 56;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(272, 97);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox4.TabIndex = 55;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(273, 24);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox3.TabIndex = 54;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(271, 86);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox2.TabIndex = 42;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
-            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
-            this.pictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseUp);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(271, 51);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(22, 23);
-            this.pictureBox1.TabIndex = 41;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
-            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
-            // 
-            // pictureBoxInfinitive
-            // 
-            this.pictureBoxInfinitive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfinitive.BackgroundImage")));
-            this.pictureBoxInfinitive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxInfinitive.Location = new System.Drawing.Point(272, 16);
-            this.pictureBoxInfinitive.Name = "pictureBoxInfinitive";
-            this.pictureBoxInfinitive.Size = new System.Drawing.Size(21, 23);
-            this.pictureBoxInfinitive.TabIndex = 40;
-            this.pictureBoxInfinitive.TabStop = false;
-            this.pictureBoxInfinitive.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
-            this.pictureBoxInfinitive.MouseHover += new System.EventHandler(this.pictureBox_MouseHover);
-            this.pictureBoxInfinitive.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxInfinitive_MouseUp);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Image = global::QuickVerbs.Properties.Resources.quick161;
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem3.Text = "QuickVerbs...";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem1.Text = "Настройки...";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Image = global::QuickVerbs.Properties.Resources.go_home;
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem4.Text = "О программе...";
-            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Image = global::QuickVerbs.Properties.Resources.application_exit;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem2.Text = "Закрыть";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
             // employeesBindingSource
             // 
             this.employeesBindingSource.DataMember = "Employees";
-            // 
-            // imageList
-            // 
-            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList.Images.SetKeyName(0, "united_states_flag.png");
-            this.imageList.Images.SetKeyName(1, "united_kingdom_flag.png");
             // 
             // MainForm
             // 
@@ -915,12 +915,18 @@
             this.radPanelBarRight.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelTop)).EndInit();
             this.radPanelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabelExample1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBoxFields)).EndInit();
             this.radGroupBoxFields.ResumeLayout(false);
             this.radGroupBoxFields.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radCheckBoxChecked)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxTranslate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxInfinitive)).EndInit();
@@ -942,12 +948,6 @@
             this.contextMenuStripGrid.ResumeLayout(false);
             this.contextMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radMenu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfinitive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);

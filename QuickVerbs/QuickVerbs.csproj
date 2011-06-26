@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>quick32.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -136,19 +137,15 @@
     <None Include="images\united_states_flag.png" />
     <None Include="images\united_kingdom_flag.png" />
     <None Include="images\quick16.png" />
-    <Content Include="l16.ico" />
-    <Content Include="l24ico.ico" />
-    <Content Include="l24z.ico" />
-    <Content Include="new.ico" />
-    <Content Include="quick32.ico" />
-    <Content Include="test.ico" />
     <None Include="images\application_exit.ico" />
     <None Include="images\go_home.ico" />
     <None Include="images\logo_ico16.png" />
     <None Include="images\ico_logo\logo_ico16.gif" />
     <Content Include="images\Play.png" />
     <None Include="images\PracticalEnglish.jpg" />
-    <Content Include="logo_ico.ico" />
+    <None Include="images\quick32.ico" />
+    <None Include="images\quick24.ico" />
+    <None Include="images\quick16.ico" />
     <Content Include="Resources\BusinessGrid.xml">
       <SubType>Designer</SubType>
     </Content>
