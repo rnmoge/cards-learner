@@ -12,7 +12,8 @@ Create  TABLE MAIN.[Temp_454925975](
 ,[Example2] text
 ,[ExampleSound2] binary
 ,[Example3] text
-,[ExampleSound3] binary
+,[ExampleSound3] binary,
+,[VerbImage] image
 ,[ID] int UNIQUE
 , Primary Key(ID)   
 );
