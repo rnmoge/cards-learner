@@ -82,6 +82,62 @@ namespace QuickVerbs
         }
         #endregion
         //--------------------------------------------------------------------------
+        #region Запрос
+        /// <summary>
+        /// Запрос
+        /// </summary>
+        public int Query(string sqlQuery1, string sqlQuery2)
+        {
+            ConnectionState previousConnectionState = ConnectionState.Closed;
+            using (SQLiteConnection connect = new SQLiteConnection(ConnectionString))
+            {
+                try
+                {
+                    previousConnectionState = connect.State;
+                    if (connect.State == ConnectionState.Closed)
+                    {
+                        connect.Open();
+                    }
+
+                    SQLiteTransaction tr = connect.BeginTransaction();
+                    try
+                    {
+                        SQLiteCommand command1 = new SQLiteCommand(sqlQuery1, connect);
+                        command1.ExecuteNonQuery();
+
+                        if (sqlQuery2 != String.Empty)
+                        {
+                            SQLiteCommand command2 = new SQLiteCommand(sqlQuery2, connect);
+                            command2.ExecuteNonQuery();
+                        }
+
+                        tr.Commit();
+                    }
+                    catch (Exception ex)
+                    {
+                        tr.Rollback();
+                        throw ex;
+
+                    }
+
+                }
+                catch (Exception error)
+                {
+                    System.Windows.Forms.MessageBox.Show(error.Message, "Ошибка при выполнении запроса", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return 1;
+                }
+                finally
+                {
+                    if (previousConnectionState == ConnectionState.Closed)
+                    {
+                        connect.Close();
+                    }
+                }
+            }
+            return 0;
+        }
+        #endregion Запрос
+        //--------------------------------------------------------------------------
         #region Получение данных
         /// <summary>
         /// Получить данные из таблицы
@@ -280,6 +336,63 @@ namespace QuickVerbs
                 catch (Exception error)
                 {
                     System.Windows.Forms.MessageBox.Show(error.Message, "Ошибка при вставке нового значения", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    if (previousConnectionState == ConnectionState.Closed)
+                    {
+                        connect.Close();
+                    }
+                }
+            }
+        }
+        #endregion
+        //--------------------------------------------------------------------------
+        #region Вставка данных массово
+        /// <summary>
+        /// Вставка новых данных массово
+        /// </summary>
+        /// <param name="databasename">Имя базы данных</param>
+        /// <param name="parameters">Коллекция параметров</param>
+        public void Insert(string databasename, ParametersCollection parameters, string sqlSelect)
+        {
+            ConnectionState previousConnectionState = ConnectionState.Closed;
+            using (SQLiteConnection connect = new SQLiteConnection(ConnectionString))
+            {
+                try
+                {
+                    previousConnectionState = connect.State;
+                    if (connect.State == ConnectionState.Closed)
+                    {
+                        connect.Open();
+                    }
+                    SQLiteCommand command = new SQLiteCommand(connect);
+                    bool ifFirst = true;
+                    string queryColumns = "("; //список полей, в которые вставляются новые значения
+                    foreach (Parameter iparam in parameters)
+                    {
+                        //добавляем новый параметр
+                        command.Parameters.Add("@" + iparam.ColumnName, iparam.DbType).Value = iparam.Value;
+                        //собираем колонки и значения в одну строку
+                        if (ifFirst)
+                        {
+                            queryColumns += iparam.ColumnName;
+                            ifFirst = false;
+                        }
+                        else
+                        {
+                            queryColumns += "," + iparam.ColumnName;
+                        }
+                    }
+                    queryColumns += ")";
+                    //создаем новый запрос
+                    string sql = string.Format("INSERT INTO {0} {1} {2}", databasename, queryColumns, sqlSelect);
+                    command.CommandText = sql;
+                    command.ExecuteNonQuery();
+                }
+                catch (Exception error)
+                {
+                    System.Windows.Forms.MessageBox.Show(error.Message, "Ошибка при вставке новых значений", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {

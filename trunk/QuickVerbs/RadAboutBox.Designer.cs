@@ -72,9 +72,9 @@ namespace QuickVerbs
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.192263F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.43316F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.18355F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.42197F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.44776F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.36318F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.91045F));
             this.tableLayoutPanel.Size = new System.Drawing.Size(488, 201);
             this.tableLayoutPanel.TabIndex = 0;
             // 
@@ -142,7 +142,7 @@ namespace QuickVerbs
             // radTextBoxDescription
             // 
             this.radTextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radTextBoxDescription.Location = new System.Drawing.Point(227, 115);
+            this.radTextBoxDescription.Location = new System.Drawing.Point(227, 113);
             this.radTextBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.radTextBoxDescription.Multiline = true;
             this.radTextBoxDescription.Name = "radTextBoxDescription";
@@ -151,7 +151,7 @@ namespace QuickVerbs
             // 
             // 
             this.radTextBoxDescription.RootElement.StretchVertically = true;
-            this.radTextBoxDescription.Size = new System.Drawing.Size(258, 54);
+            this.radTextBoxDescription.Size = new System.Drawing.Size(258, 48);
             this.radTextBoxDescription.TabIndex = 23;
             this.radTextBoxDescription.TabStop = false;
             this.radTextBoxDescription.Text = "Description";
@@ -201,9 +201,9 @@ namespace QuickVerbs
             // 
             this.okRadButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okRadButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okRadButton.Location = new System.Drawing.Point(410, 180);
+            this.okRadButton.Location = new System.Drawing.Point(400, 174);
             this.okRadButton.Name = "okRadButton";
-            this.okRadButton.Size = new System.Drawing.Size(75, 18);
+            this.okRadButton.Size = new System.Drawing.Size(85, 24);
             this.okRadButton.TabIndex = 24;
             this.okRadButton.Text = "Закрыть";
             this.okRadButton.ThemeName = "Desert";
