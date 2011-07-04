@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Telerik.WinControls.UI;
 using Telerik.WinControls;
 using System.Drawing;
+using System.Collections.Generic;
 
 namespace QuickVerbs
 {
@@ -17,9 +18,10 @@ namespace QuickVerbs
         const string sPronoun = "English ({0})";
         const string sCatNumber = "CategoryNumber = {0}";
 
-        dbFacade df = new dbFacade();
+        private dbFacade df = new dbFacade();
         public DataTable dt = new DataTable();
         public DataTable dtc = new DataTable();
+        public DataTable query = new DataTable();
         public DataView dv;
         private int category = 1;
         private string categoryName;
@@ -57,7 +59,7 @@ namespace QuickVerbs
             category = Properties.Settings.Default.CurrentLevel;
             categoryName = Properties.Settings.Default.CurrentLevelName;
 
-            dt = df.FetchAll("CurrentVerbs", "FirstForm, FirstFormSound, SecondForm, SecondFormSound, ThirdForm, ThirdFormSound, Translate, CategoryNumber, CategoryName, Closed, Example1, ExampleSound1, Example2, ExampleSound2, Example3, ExampleSound3, RightAnswers, ID");
+            dt = df.FetchAll("CurrentVerbs", "FirstForm, FirstFormSound, SecondForm, SecondFormSound, ThirdForm, ThirdFormSound, Translate, CategoryNumber, CategoryName, Closed, Example1, ExampleSound1, Example2, ExampleSound2, Example3, ExampleSound3, RightAnswers, ID, ID_Verb");
             dv = new DataView(dt);
 
             dv.RowFilter = String.Format(sCatNumber, category);
@@ -92,6 +94,7 @@ namespace QuickVerbs
             radGridView.Columns[15].IsVisible = false;
             radGridView.Columns[16].IsVisible = false;
             radGridView.Columns[17].IsVisible = false;
+            radGridView.Columns[18].IsVisible = false;
 
             if (radGridView.RowCount <= 0)
             {
@@ -127,6 +130,15 @@ namespace QuickVerbs
                 radLabelElementEnglish.Text = String.Format(sPronoun, "BR");
                 radLabelElementEnglish.ImageIndex = 1;
             }
+
+            bool en = (radGridView.Rows.Count > 0);
+
+            radButtonEdit.Enabled = en;
+            radButtonDelete.Enabled = en;
+            toolStripMenuItemEdit.Enabled = en;
+            toolStripMenuItemDelete.Enabled = en;
+            toolStripMenuItemDeleteAll.Enabled = en;
+
         }
         //--------------------------------------------------------------------------
         private void radMenuItemExit_Click(object sender, EventArgs e)
@@ -280,7 +292,23 @@ namespace QuickVerbs
             if (all)
                 paramobj[0] = String.Format("ID_Category = '{0}'", category);
             else
-                paramobj[0] = String.Format("ID = '{0}'", radGridView.CurrentRow.Cells[17].Value.ToString());
+            {
+                if (radGridView.SelectedRows.Count <= 1)
+                {
+                    paramobj[0] = String.Format("ID = '{0}'", radGridView.CurrentRow.Cells[17].Value.ToString());
+                }
+                else
+                {
+                    string ids = String.Empty;
+                    for (int i = 0; i < radGridView.SelectedRows.Count; i++)
+                    {
+                        ids += String.Format ("{0}, ", radGridView.SelectedRows[i].Cells[17].Value.ToString());
+                    }
+                    ids = ids.Substring(0, ids.Length - 2);
+
+                    paramobj[0] = String.Format("ID IN ({0})", ids);
+                }
+            }
 
             df.Update("Verb_Category", pc, paramobj, "AND");
 
@@ -290,15 +318,10 @@ namespace QuickVerbs
 
             FillData();
 
-            radGridView.Rows[cr].IsCurrent = true;
+            if (radGridView.Rows.Count > 0)
+                radGridView.Rows[cr].IsCurrent = true;
 
             this.radProgressBarElement.Value1 = 100;
-        }
-
-        //--------------------------------------------------------------------------
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            SaveData(false, radCheckBoxChecked.Checked);
         }
         //--------------------------------------------------------------------------
         private void ResetProgressBar()
@@ -361,13 +384,15 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SaveData(true, true);
+            radGridView.SelectAll();
         }
         //--------------------------------------------------------------------------
         private void deselectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            selectAllToolStripMenuItem.HideDropDown();
-            SaveData(true, false);
+            for (int i = 0; i < radGridView.Rows.Count; i++)
+            {
+                radGridView.Rows[i].IsSelected = false;
+            }
         }
         //--------------------------------------------------------------------------
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -452,6 +477,177 @@ namespace QuickVerbs
             {
                 FillData();
             }
+        }
+        //--------------------------------------------------------------------------
+        private void AddVerbs()
+        {
+            InsertVerbs ivf = new InsertVerbs(this);
+            if (ivf.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+
+                if (ivf.radListControlVerbs.SelectedItems.Count > 0)
+                {
+                    ResetProgressBar();
+
+                    radProgressBarElement.Value1 = 0;
+
+                    ParametersCollection pc = new ParametersCollection();
+
+                    Parameter p1 = new Parameter();
+                    p1.ColumnName = "ID_Verb";
+                    p1.DbType = DbType.Int32;
+                    pc.Add(p1);
+
+                    Parameter p2 = new Parameter();
+                    p2.ColumnName = "ID_Category";
+                    p2.DbType = DbType.Int32;
+                    pc.Add(p2);
+
+                    radProgressBarElement.Value1 = 20;
+
+                    string ids = String.Empty;
+
+                    for (int i = 0; i < ivf.radListControlVerbs.SelectedItems.Count; i++)
+                    {
+                        ids += String.Format("{0}, ", ivf.dc[ivf.radListControlVerbs.SelectedItems[i].Text]);
+                    }
+                    ids = ids.Substring(0, ids.Length - 2);
+
+                    radProgressBarElement.Value1 = 40;
+
+                    string sqlSelect = String.Format("SELECT ID, {0} FROM Verbs WHERE ID IN ({1})", category, ids); 
+
+                    df.Insert("Verb_Category", pc, sqlSelect);
+
+                    radProgressBarElement.Value1 = 60;
+
+                    int cr = 0;
+                    if (radGridView.RowCount > 0)
+                        cr = radGridView.CurrentRow.Index;
+
+                    radProgressBarElement.Value1 = 80;
+
+                    FillData();
+
+                    if (radGridView.Rows.Count > 0)
+                        radGridView.Rows[cr].IsCurrent = true;
+
+                    radProgressBarElement.Value1 = 100;
+                }
+            }
+        }
+        //--------------------------------------------------------------------------
+        private void radButtonNew_Click(object sender, EventArgs e)
+        {
+            AddVerbs();
+        }
+        //--------------------------------------------------------------------------
+        private void toolStripMenuItemAdd_Click(object sender, EventArgs e)
+        {
+            AddVerbs();
+        }
+        //--------------------------------------------------------------------------    
+        private void EditVerb()
+        {
+            EditVerbs evf = new EditVerbs(this);
+            if (evf.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                SaveData(false, evf.radRadioButtonCheck.IsChecked);
+            }
+        }
+        //--------------------------------------------------------------------------       
+        private void radButtonEdit_Click(object sender, EventArgs e)
+        {
+            EditVerb();
+        }
+        //--------------------------------------------------------------------------  
+        private void toolStripMenuItemEdit_Click(object sender, EventArgs e)
+        {
+            EditVerb();
+        }
+        //--------------------------------------------------------------------------  
+        private void radGridView_CellDoubleClick(object sender, GridViewCellEventArgs e)
+        {
+            EditVerb();
+        }
+        //--------------------------------------------------------------------------
+        private void DeleteVerb()
+        {
+            string msg = String.Empty;
+            string delSQL = String.Empty;
+            int cr = 0;
+
+            if (radGridView.SelectedRows.Count <= 1)
+                msg = String.Format("Исключить глагол {0} из уровня {1}?", radGridView.CurrentRow.Cells[0].Value.ToString()[0].ToString().ToUpper() + radGridView.CurrentRow.Cells[0].Value.ToString().Substring(1, radGridView.CurrentRow.Cells[0].Value.ToString().Length - 1), categoryName);
+            else
+                msg = String.Format("Исключить выбранные глаголы из уровня {0}?", categoryName);
+
+            if (MessageBox.Show(msg, "Удаление", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            {
+                if (radGridView.SelectedRows.Count <= 1)
+                {
+                    delSQL = String.Format("WHERE ID = '{0}'", radGridView.CurrentRow.Cells[17].Value.ToString());
+                    cr = radGridView.CurrentRow.Index;
+                }
+                else
+                {
+                    string ids = String.Empty;
+
+                    for (int i = 0; i < radGridView.SelectedRows.Count; i++)
+                    {
+                        ids += String.Format("{0}, ", radGridView.SelectedRows[i].Cells[17].Value.ToString());
+                    }
+                    ids = ids.Substring(0, ids.Length - 2);
+
+                    delSQL = String.Format("WHERE ID IN ({0})", ids);
+
+                    cr = radGridView.SelectedRows[0].Index;
+
+                }
+
+                df.Delete("Verb_Category", delSQL);
+                FillData();
+
+                if (radGridView.Rows.Count > 0)
+                    radGridView.Rows[cr].IsCurrent = true;
+            }
+        }
+
+        //--------------------------------------------------------------------------
+        private void radButtonDelete_Click(object sender, EventArgs e)
+        {
+            DeleteVerb();
+        }
+        //--------------------------------------------------------------------------   
+        private void toolStripMenuItemDelete_Click(object sender, EventArgs e)
+        {
+            DeleteVerb();
+        }
+        //--------------------------------------------------------------------------    
+        private void RestoreVerbs()
+        {
+            if (MessageBox.Show((String.Format("Восстановить уровень {0} с глаголами по умолчанию?", categoryName)), "Восстановление по умолчанию", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            {
+                this.radProgressBarElement.Value1 = 50;
+                
+                df.Query(String.Format("DELETE FROM Verb_Category WHERE ID_Category = {0}", category), String.Format("INSERT INTO Verb_Category (ID, ID_Verb, ID_Category, Closed, RightAnswers) SELECT ID, ID_Verb, ID_Category, Closed, RightAnswers FROM Verb_Category_Default WHERE ID_Category = {0}", category));
+                
+                this.radProgressBarElement.Value1 = 70;
+
+                FillData();
+
+                this.radProgressBarElement.Value1 = 100;
+            }
+        }
+        //--------------------------------------------------------------------------
+        private void radButtonRestore_Click(object sender, EventArgs e)
+        {
+            RestoreVerbs();
+        }
+        //--------------------------------------------------------------------------
+        private void toolStripMenuItemRestore_Click(object sender, EventArgs e)
+        {
+            RestoreVerbs();
         }
         //--------------------------------------------------------------------------
     }

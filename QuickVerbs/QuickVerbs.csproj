@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>quick32.ico</ApplicationIcon>
+    <ApplicationIcon>pqc241.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dbFacade.cs" />
+    <Compile Include="EditVerbs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditVerbs.Designer.cs">
+      <DependentUpon>EditVerbs.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="LessonForm.Designer.cs">
       <DependentUpon>LessonForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="InsertVerbs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertVerbs.Designer.cs">
+      <DependentUpon>InsertVerbs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
@@ -95,6 +107,9 @@
     <Compile Include="SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EditVerbs.resx">
+      <DependentUpon>EditVerbs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +129,9 @@
     </Compile>
     <EmbeddedResource Include="LessonForm.resx">
       <DependentUpon>LessonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertVerbs.resx">
+      <DependentUpon>InsertVerbs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
@@ -141,11 +159,27 @@
     <None Include="images\ico_logo\logo_ico16.gif" />
     <None Include="images\hourglass_plus.png" />
     <None Include="images\hourglass_exclamation.png" />
+    <None Include="images\book_question.png" />
+    <None Include="images\help.png" />
+    <None Include="images\app_help.png" />
+    <None Include="images\bookmarks_add.png" />
+    <None Include="images\list1_delete.png" />
+    <None Include="images\book_previous.png" />
+    <None Include="images\hcards_left%282%29.png" />
+    <None Include="images\book_open_previous.png" />
     <Content Include="images\Play.png" />
     <None Include="images\PracticalEnglish.jpg" />
     <None Include="images\quick32.ico" />
     <None Include="images\quick24.ico" />
     <None Include="images\quick16.ico" />
+    <None Include="images\stock_help_add_bookmark.png" />
+    <None Include="images\stock_help.png" />
+    <None Include="images\stock_help_add_bookmarknew.png" />
+    <None Include="images\text_edit.png" />
+    <None Include="images\qc16.png" />
+    <None Include="images\pqc16.png" />
+    <Content Include="pqc24.ico" />
+    <Content Include="pqc241.ico" />
     <Content Include="quick32.ico" />
     <Content Include="Resources\BusinessGrid.xml">
       <SubType>Designer</SubType>
