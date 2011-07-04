@@ -1,8 +1,5 @@
 Begin Transaction;
-
-DROP TABLE Verb_Category;
-
-CREATE TABLE Verb_Category(
+Create  TABLE MAIN.[Temp_369895384](
 [ID] int UNIQUE
 ,[ID_Verb] int
 ,[ID_Category] int
@@ -10,10 +7,10 @@ CREATE TABLE Verb_Category(
 ,[RightAnswers] int DEFAULT 0
 , Primary Key(ID)   
 );
-
-CREATE UNIQUE INDEX [Verb_Category_udx] On [Verb_Category] (
-[ID_Verb] ,
-[ID_Category] );
+Insert Into MAIN.[Temp_369895384] ([ID],[ID_Verb],[ID_Category],[Closed],[RightAnswers]) 
+ Select [ID],[ID_Verb],[ID_Category],[Closed],[RightAnswers] From MAIN.[Verb_Category];
+Drop Table MAIN.[Verb_Category];
+Alter Table MAIN.[Temp_369895384] Rename To [Verb_Category];
 
 
 Commit Transaction;
