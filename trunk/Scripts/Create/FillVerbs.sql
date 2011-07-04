@@ -64,7 +64,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(21, 'bestride', 'bestrode', 'bestridden', 'садитьс€; сидеть верхом', '', '', '');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(22, 'bet', 'bet; betted', 'bet; betted', 'держать пари', '<html>It is possible <b>to bet</b> on almost anything nowadays.</html>', '<html>Mary <b>bet</b> a lot of money on that horse that came in last.<html>', '<html>John <b>has bet</b> ten dollars that he can beat me in a tennis match.</html>');
+VALUES(22, 'bet', 'bet; betted', 'bet; betted', 'держать пари', '<html>It is <b>possible to bet</b> on almost anything nowadays.</html>', '<html>Mary <b>bet</b> a lot of money on that horse that came in last.<html>', '<html>John <b>has bet</b> ten dollars that he can beat me in a tennis match.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(23, 'betake', 'betook', 'betaken', 'приниматьс€; отправл€тьс€', '', '', '');
@@ -73,7 +73,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(24, 'bid', 'bad; bade; bid', 'bid; bidden', 'велеть; просить', '<html>The English company <b>will be bidding</b> for the oil contract.</html>', '<html>At the auction, James <b>bid</b> $5,000 for the painting.</html>', '<html>Bill <b>has bid</b> the highest price for the book at the auction so far.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(25, 'bind', 'bound', 'bound', 'св€зать', '<html>You <b>can use</b> this ribbon <b>to bind</b> the package.</html>', '<html>IТve got ShakespeareТs Complete Works <b>bound</b> in leather.</html>', '<html>A strong culture <b>has bound</b> the Chinese people together for many years.</html>');
+VALUES(25, 'bind', 'bound', 'bound', 'св€зать', '<html>You <b>can use</b> this ribbon <b>to bind</b> the package.</html>', '<html>IТ<b>ve got</b> Arthur Conan Doyle''s books <b>bound</b> in leather.</html>', '<html>A strong culture <b>has bound</b> the Chinese people together for many years.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(26, 'bite', 'bit', 'bitten', 'кусать', '<html>When Jack is nervous, he <b>bites</b> his pencil.</html>', '<html>My neighborТs dog <b>bit</b> Sally the other day.</html>', '<html>During the picnic, we <b>were bitten</b> by mosquitoes.</html>');
@@ -166,7 +166,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(55, 'dig', 'dug', 'dug', 'копать', '<html>TheyТ<b>re digging</b> for gold in this area.</html>', '<html>The dog <b>dug</b> all the garden but couldnТt find its bone.</html>', '<html>A ditch <b>is being dug</b> along the road.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(56, 'dive', 'dived; dove', 'dived', 'ныр€ть; погружатьс€', '<html>These town folks <b>dive</b> for pearls as a means of living.</html>', '<html>It was very hot, so we <b>dove<b> into the lake and swam for a while.</html>', '<html>Lucy <b>has dived</b> with sharks many times since she came here.</html>');
+VALUES(56, 'dive', 'dived; dove', 'dived', 'ныр€ть; погружатьс€', '<html>These town folks <b>dive</b> for pearls as a means of living.</html>', '<html>It was very hot, so we <b>dove</b> into the lake and swam for a while.</html>', '<html>Lucy <b>has dived</b> with sharks many times since she came here.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(57, 'do', 'did', 'done', 'делать', '<html>We <b>should do</b> something to help those people.</html>', '<html>The doctors <b>did</b> everything they could to save the patient.</html>', '<html>What <b>have</b> you <b>done</b> with my books?</html>');
@@ -199,7 +199,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(66, 'feel', 'felt', 'felt', 'чувствовать', '<html>If you take some aspirin, youТ<b>ll feel</b> better.</html>', '<html>Susan <b>felt</b> very sad when her cat died.</html>', '<html><b>Feel</b> this feather pillow! ItТs really soft.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(67, 'fight', 'fought', 'fought', 'сражатьс€', '<html>Two of my classmates <b>are</b> always <b>fighting</b>.</html>', '<html>My grandfather <b>fought</b> in World War II.</html>', '<html>Steps <b>should be taken to fight</b> poverty.</html>');
+VALUES(67, 'fight', 'fought', 'fought', 'сражатьс€', '<html>Two of my classmates <b>are</b> always <b>fighting</b>.</html>', '<html>My grandfather John <b>fought</b> in World War II.</html>', '<html>Steps <b>should be taken to fight</b> poverty.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(68, 'find', 'found', 'found', 'находить', '<html>I <b>canТt find</b> my wallet. Have you seen it?</html>', '<html>A dead whale <b>was found</b> on the shore.</html>', '<html><b>Have</b> you <b>found</b> your glasses?</html>');
@@ -208,7 +208,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(69, 'fit', 'fit', 'fit', 'подходить по размеру', '<html>David tried the blue suit on, but it <b>didnТt fit</b> him.</html>', '<html>This key <b>doesnТt fit</b> the lock.</html>', '<html>All the rooms in this company <b>are fitted</b> with sprinklers.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(70, 'flee', 'fled', 'fled', 'бежать; спасатьс€', '<html>The fugitive was caught by border guards while <b>trying to flee</b> the country.</html>', '<html>The Jacksons <b>fled</b> to the U.S. when the war broke out.</html>', '<html>When the police arrived, the driver <b>had/b> already <b>fled</b> the scene of the accident.</html>');
+VALUES(70, 'flee', 'fled', 'fled', 'бежать; спасатьс€', '<html>The fugitive was caught by border guards while <b>trying to flee</b> the country.</html>', '<html>The Jacksons <b>fled</b> to the U.S. when the war broke out.</html>', '<html>When the police arrived, the driver <b>had</b> already <b>fled</b> the scene of the accident.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(71, 'fling', 'flung', 'flung', 'бросить', '<html>As Peter arrives from work, he always <b>flings</b> his overcoat onto the sofa.</html>', '<html>The kids <b>flung</b> themselves onto the bed and turned on the TV.</html>', '<html>The door <b>was</b> suddenly <b>flung</b> open by the wind.</html>');
@@ -274,7 +274,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(91, 'grind', 'ground', 'ground', 'точить; молоть', '<html><b>LetТs grind</b> some coffee for breakfast.</html>', '<html>The cook <b>ground</b> some meat in order to make hamburgers.</html>', '<html>Carol <b>has been grinding</b> her teeth in her sleep lately.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(92, 'grow', 'grew', 'grown', 'расти', '<html>Deserts are too arid for grass <b>to grow</b>.</html>', '<html>When I was a child, we had an orchard where we <b>grew</b> apples.</html>', '<html>My puppy <b>has grown</b> very quickly during the first seven months.</html>');
+VALUES(92, 'grow', 'grew', 'grown', 'расти', '<html>Deserts <b>are too arid</b> for grass <b>to grow</b>.</html>', '<html>When I was a child, we had an orchard where we <b>grew</b> apples.</html>', '<html>My puppy <b>has grown</b> very quickly during the first seven months.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(93, 'hamstring', 'hamstringed; hamstrung', 'hamstringed; hamstrung', 'подрезать поджилки', '', '', '');
@@ -310,7 +310,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(103, 'inlay', 'inlaid', 'inlaid', 'вкладывать; выстилать', '<html>That jeweler <b>inlays</b> boxes with silver and gold.</html>', '<html>The lid of the coffer was <b>inlaid</b> with gold.</html>', '<html>Pieces of wood <b>have been inlaid</b> to the living-room wall.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(104, 'input', 'input; inputted', 'input; inputted', 'входить', '<html>This teller <b>inputs</b> figures into the bankТs network system.</html>', '<html>All this data <b>has</b> already <b>been input</b> into the computer.</html>', '<html>Who <b>input</b> this text yesterday?</html>');
+VALUES(104, 'input', 'input; inputted', 'input; inputted', 'входить', '<html>This teller <b>inputs</b> figures into the bankТs network system.</html>', '<html>Who <b>input</b> this text yesterday?</html>', '<html>All this data <b>has</b> already <b>been input</b> into the computer.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(105, 'inset', 'inset', 'inset', 'вставл€ть; вкладывать', '', '', '');
@@ -325,10 +325,10 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(108, 'ken', 'kenned; kent', 'kenned', 'знать; узнавать по виду', '', '', '');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(109, 'kneel', 'knelt', 'knelt', 'становитьс€ на колени', '<html>Many people <b>kneel</b> to pray.</html>', '<html>The vet <b>kneelt</b> down to examine the horseТs hoof.</html>', '<html>While listening to the priest, the congregation <b>was kneeling</b>.</html>');
+VALUES(109, 'kneel', 'knelt', 'knelt', 'становитьс€ на колени', '<html>Many people <b>kneel</b> to pray.</html>', '<html>The vet <b>kneelt down</b> to examine the horseТs hoof.</html>', '<html>While listening to the priest, the congregation <b>was kneeling</b>.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(110, 'knit', 'knit; knitted', 'knit; knitted', 'в€зать', '<html>My grandmother loves <b>knitting</b> woolen scarves.</html>', '<html>Amy <b>knit</b> this white shawl herself.</html>', '<html>Wendy <b>has knitted</b> many sweaters using a machine.</html>');
+VALUES(110, 'knit', 'knit; knitted', 'knit; knitted', 'в€зать', '<html>My grandmother <b>loves knitting</b> woolen scarves.</html>', '<html>Amy <b>knit</b> this white shawl herself.</html>', '<html>Wendy <b>has knitted</b> many sweaters using a machine.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(111, 'know', 'knew', 'known', 'знать', '<html>I <b>know</b> very well what you mean.</html>', '<html>Steve <b>knew</b> that he would not get any help from anybody.</html>', '<html>We <b>have known</b> Victor for eight years.</html>');
@@ -469,7 +469,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(156, 'overhang', 'overhung', 'overhung', 'нависать', '', '', '');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(157, 'overhear', 'overheard', 'overheard', 'подслуш(ив)ать', '<html>I <b>overheard</b> Mr. Gray saying that he had fire Edward.</html>', '<html>LetТs speak quietly so as <b>not to be overheard</b>.</html>', '<html>We sometimes <b>overhear</b> our neighbors arguing.</html>');
+VALUES(157, 'overhear', 'overheard', 'overheard', 'подслуш(ив)ать','<html>We sometimes <b>overhear</b> our neighbors arguing.</html>', '<html>I <b>overheard</b> Mr. Gray saying that he had fire Edward.</html>', '<html>LetТs speak quietly so as <b>not to be overheard</b>.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(158, 'overlay', 'overlaid', 'overlaid', 'покры(ва)ть', '', '', '');
@@ -571,7 +571,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(190, 'rid', 'rid; ridded', 'rid; ridded', 'избавл€ть', '<html>Jack left home because he <b>wanted to be rid</b> of his parents.</html>', '<html>Alex <b>ridded</b> himself of guilt by telling the truth.</html>', '<html>We <b>got rid</b> of old clothes by calling the Salvation Army.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(191, 'ride', 'rode', 'ridden', 'ездить верхом', '<html>When my brother was a teenager, he <b>rode</b> a Harley Davidson.</html>', '<html>We <b>love riding</b> our bikes across the park.</html>', '<html>My sister <b>has ridden</b> horses since the age of seven.</html>');
+VALUES(191, 'ride', 'rode', 'ridden', 'ездить верхом', '<html>We <b>love riding</b> our bikes across the park.</html>', '<html>When my brother was a teenager, he <b>rode</b> a Harley Davidson.</html>', '<html>My sister <b>has ridden</b> horses since the age of seven.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(192, 'ring','rang', 'rung', 'звонить', '<html>The phone <b>is ringing</b>.</html>', '<html>I <b>rang</b> the doorbell but there was nobody in the house.</html>', '<html>Your aunt <b>rang</b> when you were taking a shower.</html>');
@@ -679,7 +679,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(226, 'smite', 'smote', 'smitten', 'удар€ть; разбивать', '', '', '');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(227, 'sow', 'sowed', 'sowed; sown', '(по)се€ть', '<html>This soil <b>is good for sowing</b> those plants.</html>', '<html>Once he <b>had sown</b> the seeds, our gardener watered the flowerbed.</html>', '<html>If you <b>sow</b> now, youТll have to harvest in the summer.</html>');
+VALUES(227, 'sow', 'sowed', 'sowed; sown', '(по)се€ть', '<html>If you <b>sow</b> now, youТll have to harvest in the summer.</html>', '<html>This soil <b>is good for sowing</b> those plants.</html>', '<html>Once he <b>had sown</b> the seeds, our gardener watered the flowerbed.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(228, 'speak', 'spoke', 'spoken', 'говорить', '<html>Is Mr. Wilkins in, please? I <b>need to speak</b> to himЧitТs urgent.</html>', '<html>The man who <b>spoke</b> to me had a foreign accent.</html>', '<html>BarbaraТs teacher <b>has spoken</b> to her mother about her low grades.</html>');
@@ -805,7 +805,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(268, 'undercut', 'undercut', 'undercut', 'сбивать цены', '', '', '');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(269, 'undergo', 'underwent', 'undergone', 'проходить; подвергатьс€', '<html>Jim <b>is undergoing</b> psychotherapy.</html>', '<html>That old historical building <b>has undergone</b> several repairs.</html>', '<html>The patient <b>underwent</b> some tests before the surgery.</html>');
+VALUES(269, 'undergo', 'underwent', 'undergone', 'проходить; подвергатьс€', '<html>Jim <b>is undergoing</b> psychotherapy.</html>', '<html>The patient <b>underwent</b> some tests before the surgery.</html>', '<html>That old historical building <b>has undergone</b> several repairs.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(270, 'underlie', 'underlay', 'underlain', 'лежать в основе', '', '', '');
@@ -862,7 +862,7 @@ INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Exa
 VALUES(287, 'weep', 'wept', 'wept', 'плакать', '<html>The film was so sad that <b>made</b> us <b>weep</b>.</html>', '<html>My daughter fell down and <b>wept</b> for hours.</html>', '<html>Everybody <b>wept</b> at the funeral.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
-VALUES(288, 'wet', 'wet; wetted', 'wet; wetted', 'мочить; увлажн€ть', '<html>My son had a high fever so I <b>wet</b> his forehead.</html>', '<html>The player <b>will wet</b> his head before running into the soccer field.</html>', '<html>The hairdresser <b>wetted</b> the comb slightly to arrange her hair.</html>');
+VALUES(288, 'wet', 'wet; wetted', 'wet; wetted', 'мочить; увлажн€ть',  '<html>The player <b>will wet</b> his head before running into the soccer field.</html>', '<html>My son had a high fever so I <b>wet</b> his forehead.</html>', '<html>The hairdresser <b>wetted</b> the comb slightly to arrange her hair.</html>');
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(289, 'win', 'won', 'won', 'выиграть', '<html>Do you think our team <b>will win</b> the World Cup?</html>', '<html>Eugene OТNeill <b>won</b> the Nobel Prize for Literature in 1936.</html>', '<html>Tony <b>won</b> the lottery and became rich.</html>');
@@ -884,6 +884,7 @@ VALUES(294, 'wring', 'wrung', 'wrung', 'скрутить; сжать', '<html>You looked so m
 
 INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 VALUES(295, 'write', 'wrote', 'written', 'писать', '<html>Children usually <b>learn to</b> read and <b>write</b> at the age of six.</html>', '<html>William Shakespeare <b>wrote</b> plays and sonnets.</html>', '<html>My sister <b>hasnТt written</b> a letter to granny in ages.</html>');
+
 
 
 
