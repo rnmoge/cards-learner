@@ -60,6 +60,27 @@ namespace QuickVerbs.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap app_help {
+            get {
+                object obj = ResourceManager.GetObject("app_help", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap app_help1 {
+            get {
+                object obj = ResourceManager.GetObject("app_help1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap app_help2 {
+            get {
+                object obj = ResourceManager.GetObject("app_help2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap application_exit {
             get {
                 object obj = ResourceManager.GetObject("application_exit", resourceCulture);
@@ -67,9 +88,72 @@ namespace QuickVerbs.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap book_open_previous {
+            get {
+                object obj = ResourceManager.GetObject("book_open_previous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap book_previous {
+            get {
+                object obj = ResourceManager.GetObject("book_previous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap book_previous1 {
+            get {
+                object obj = ResourceManager.GetObject("book_previous1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap book_question {
+            get {
+                object obj = ResourceManager.GetObject("book_question", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap bookmarks_add {
+            get {
+                object obj = ResourceManager.GetObject("bookmarks_add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap go_home {
             get {
                 object obj = ResourceManager.GetObject("go_home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap hcards_left_2_ {
+            get {
+                object obj = ResourceManager.GetObject("hcards_left(2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap help {
+            get {
+                object obj = ResourceManager.GetObject("help", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap help1 {
+            get {
+                object obj = ResourceManager.GetObject("help1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap help2 {
+            get {
+                object obj = ResourceManager.GetObject("help2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -88,6 +172,27 @@ namespace QuickVerbs.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap list1_delete {
+            get {
+                object obj = ResourceManager.GetObject("list1_delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap list1_delete1 {
+            get {
+                object obj = ResourceManager.GetObject("list1_delete1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap list1_delete2 {
+            get {
+                object obj = ResourceManager.GetObject("list1_delete2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Misc_Settings_icon {
             get {
                 object obj = ResourceManager.GetObject("Misc_Settings_icon", resourceCulture);
@@ -102,9 +207,23 @@ namespace QuickVerbs.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap pqc16 {
+            get {
+                object obj = ResourceManager.GetObject("pqc16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap PracticalEnglish {
             get {
                 object obj = ResourceManager.GetObject("PracticalEnglish", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap qc16 {
+            get {
+                object obj = ResourceManager.GetObject("qc16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -134,6 +253,69 @@ namespace QuickVerbs.Properties {
             get {
                 object obj = ResourceManager.GetObject("quick32", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help {
+            get {
+                object obj = ResourceManager.GetObject("stock_help", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmark {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmark1 {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmark1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmark2 {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmark2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmark3 {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmark3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmark4 {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmark4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmark5 {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmark5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap stock_help_add_bookmarknew {
+            get {
+                object obj = ResourceManager.GetObject("stock_help_add_bookmarknew", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap text_edit {
+            get {
+                object obj = ResourceManager.GetObject("text_edit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
