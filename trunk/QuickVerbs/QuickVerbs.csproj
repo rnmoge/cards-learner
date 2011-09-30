@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>pqc241.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,6 +46,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
     </Reference>
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -178,9 +180,6 @@
     <None Include="images\text_edit.png" />
     <None Include="images\qc16.png" />
     <None Include="images\pqc16.png" />
-    <Content Include="pqc24.ico" />
-    <Content Include="pqc241.ico" />
-    <Content Include="quick32.ico" />
     <Content Include="Resources\BusinessGrid.xml">
       <SubType>Designer</SubType>
     </Content>

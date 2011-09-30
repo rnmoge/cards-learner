@@ -49,7 +49,7 @@ namespace QuickVerbs
             this.btnCancel.Location = new System.Drawing.Point(89, 308);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(70, 24);
-            this.btnCancel.TabIndex = 13;
+            this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Отменить";
             this.btnCancel.ThemeName = "Desert";
             // 
@@ -60,10 +60,9 @@ namespace QuickVerbs
             this.btnOK.Location = new System.Drawing.Point(13, 308);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(70, 24);
-            this.btnOK.TabIndex = 12;
+            this.btnOK.TabIndex = 1;
             this.btnOK.Text = "Добавить";
             this.btnOK.ThemeName = "Desert";
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // radListControlVerbs
             // 
@@ -77,7 +76,7 @@ namespace QuickVerbs
             this.radListControlVerbs.Name = "radListControlVerbs";
             this.radListControlVerbs.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.radListControlVerbs.Size = new System.Drawing.Size(147, 282);
-            this.radListControlVerbs.TabIndex = 15;
+            this.radListControlVerbs.TabIndex = 0;
             this.radListControlVerbs.Text = "radListControl1";
             this.radListControlVerbs.ThemeName = "Desert";
             // 
