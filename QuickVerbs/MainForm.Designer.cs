@@ -99,13 +99,13 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.помощьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.radToolStripSeparatorItem6 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.radToolStripSeparatorItem7 = new Telerik.WinControls.UI.RadToolStripSeparatorItem();
             this.radMenuItemExit = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItemSettings = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItemAbout = new Telerik.WinControls.UI.RadMenuItem();
-            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.radButtonNew = new Telerik.WinControls.UI.RadButton();
             this.radButtonEdit = new Telerik.WinControls.UI.RadButton();
             this.radButtonDelete = new Telerik.WinControls.UI.RadButton();
@@ -113,6 +113,7 @@
             this.radMenuItemHelp = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenu = new Telerik.WinControls.UI.RadMenu();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.timerLesson = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radStatusBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelBarRight)).BeginInit();
             this.radPanelBarRight.SuspendLayout();
@@ -147,7 +148,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGridView)).BeginInit();
             this.contextMenuStripGrid.SuspendLayout();
             this.contextMenuStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButtonNew)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButtonEdit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButtonDelete)).BeginInit();
@@ -839,11 +839,12 @@
             // 
             // notifyIcon
             // 
+            this.notifyIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.notifyIcon.BalloonTipText = "Изучение английских неправильных глаголов";
             this.notifyIcon.BalloonTipTitle = "QuickVerbs";
             this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "notifyIcon";
+            this.notifyIcon.Text = "QuickVerbs";
             this.notifyIcon.Visible = true;
             this.notifyIcon.DoubleClick += new System.EventHandler(this.notifyIcon_DoubleClick);
             // 
@@ -853,16 +854,17 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem1,
             this.toolStripMenuItem4,
+            this.помощьToolStripMenuItem,
             this.toolStripMenuItem2});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(162, 92);
+            this.contextMenuStrip.Size = new System.Drawing.Size(162, 114);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Image = global::QuickVerbs.Properties.Resources.pqc16;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem3.Text = "QuickVerbs...";
+            this.toolStripMenuItem3.Text = "&QuickVerbs...";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem1
@@ -870,7 +872,7 @@
             this.toolStripMenuItem1.Image = global::QuickVerbs.Properties.Resources.Misc_Settings_icon;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem1.Text = "Настройки...";
+            this.toolStripMenuItem1.Text = "&Настройки...";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItem4
@@ -878,15 +880,22 @@
             this.toolStripMenuItem4.Image = global::QuickVerbs.Properties.Resources.go_home;
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem4.Text = "О программе...";
+            this.toolStripMenuItem4.Text = "&О программе...";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
+            // 
+            // помощьToolStripMenuItem
+            // 
+            this.помощьToolStripMenuItem.Image = global::QuickVerbs.Properties.Resources.app_help;
+            this.помощьToolStripMenuItem.Name = "помощьToolStripMenuItem";
+            this.помощьToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.помощьToolStripMenuItem.Text = "&Помощь";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Image = global::QuickVerbs.Properties.Resources.application_exit;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
-            this.toolStripMenuItem2.Text = "Закрыть";
+            this.toolStripMenuItem2.Text = "&Выйти";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // radToolStripSeparatorItem6
@@ -925,10 +934,6 @@
             this.radMenuItemAbout.Text = "&О программе";
             this.radMenuItemAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radMenuItemAbout.Click += new System.EventHandler(this.radMenuItemAbout_Click);
-            // 
-            // employeesBindingSource
-            // 
-            this.employeesBindingSource.DataMember = "Employees";
             // 
             // radButtonNew
             // 
@@ -997,6 +1002,10 @@
             this.radMenu.TabIndex = 3;
             this.radMenu.Text = "radMenu";
             // 
+            // timerLesson
+            // 
+            this.timerLesson.Tick += new System.EventHandler(this.timerLesson_Tick);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1019,7 +1028,7 @@
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quick Verbs. Программа по изучению английских неправильных глаголов.";
+            this.Text = "QuickVerbs. Программа по изучению английских неправильных глаголов.";
             this.ThemeName = "Desert";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Activated += new System.EventHandler(this.MainForm_Activated);
@@ -1065,7 +1074,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGridView)).EndInit();
             this.contextMenuStripGrid.ResumeLayout(false);
             this.contextMenuStrip.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButtonNew)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButtonEdit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButtonDelete)).EndInit();
@@ -1106,7 +1114,6 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem22;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem26;
         public Telerik.WinControls.UI.RadGridView radGridView;
-        private System.Windows.Forms.BindingSource employeesBindingSource;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem11;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem12;
         private Telerik.WinControls.UI.RadMenuItem radMenuItemExit;
@@ -1162,5 +1169,7 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItemHelp;
         private Telerik.WinControls.UI.RadMenu radMenu;
         private System.Windows.Forms.ToolTip toolTip;
+        public System.Windows.Forms.Timer timerLesson;
+        private System.Windows.Forms.ToolStripMenuItem помощьToolStripMenuItem;
     }
 }

@@ -17,7 +17,7 @@ namespace QuickVerbs
         public Dictionary<string, int> dfull = new Dictionary<string, int>();
         public Dictionary<string, int> dc = new Dictionary<string, int>();
         public DataTable dt = new DataTable();
-
+        //--------------------------------------------------------------------------
         public InsertVerbs(MainForm mainForm)
         {
             InitializeComponent();
@@ -54,11 +54,6 @@ namespace QuickVerbs
             {
                 radListControlVerbs.Items[i].Selected = false;
             }
-        }
-        //--------------------------------------------------------------------------
-        private void btnOK_Click(object sender, EventArgs e)
-        {
-
         }
         //--------------------------------------------------------------------------
     }

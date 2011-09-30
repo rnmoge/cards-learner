@@ -11,6 +11,12 @@ namespace QuickVerbs
     /// <summary>
     /// example form
     /// </summary>
+    //TODO: в версии 2
+    //1. Добавить оставшиеся глаголы
+    //2. Разные цветовые схемы
+    //3. Картинки (?)
+    //4. Расписание
+    //5. Возможность создавать уровни
     public partial class MainForm : Telerik.WinControls.UI.RadForm
     {
         const string sCategory = "Уровень: {0}";
@@ -26,6 +32,13 @@ namespace QuickVerbs
         private int category = 1;
         private string categoryName;
         private bool firstStart = true;
+        private bool timerOut = true;
+
+        public bool TimerOut
+        {
+            get { return timerOut; }
+            set { timerOut = value; }
+        }
 
         /// <summary>
         /// default constructor
@@ -47,10 +60,18 @@ namespace QuickVerbs
             {
                 Hide();
                 ThemeResolutionService.ApplyThemeToControlTree(this, "Desert");
-                firstStart = false;
             }
 
             FillData();
+
+            if (firstStart == true)
+            {
+                timerLesson.Interval = Properties.Settings.Default.Period * 3600000;
+                timerLesson_Tick(timerLesson, null);
+                timerLesson.Enabled = true;
+                firstStart = false;
+            }
+
         }
         //--------------------------------------------------------------------------
         private void FillData()
@@ -143,7 +164,7 @@ namespace QuickVerbs
         //--------------------------------------------------------------------------
         private void radMenuItemExit_Click(object sender, EventArgs e)
         {
-            Hide();
+            QuickVerbsClose();
         }
         //--------------------------------------------------------------------------
         //private void OnRadMenuItemChangeTheme_Click(object sender, EventArgs e)
@@ -359,19 +380,29 @@ namespace QuickVerbs
             ShowAbout(FormStartPosition.CenterScreen);
         }
         //--------------------------------------------------------------------------
+        private void QuickVerbsClose()
+        {
+            if (MessageBox.Show("Выйти из QuickVerbs приложения?", "QuickVerbs", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+            {
+                Properties.Settings.Default.ShowPanel = radCheckBoxElementPanel.Checked;
+                Properties.Settings.Default.Save();
+
+                notifyIcon.Dispose();
+                Application.Exit();
+            }
+        }
+        //--------------------------------------------------------------------------
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.ShowPanel = radCheckBoxElementPanel.Checked;
-            Properties.Settings.Default.Save();
-
-            notifyIcon.Dispose();
-            Application.Exit();
+            QuickVerbsClose();
         }
         //--------------------------------------------------------------------------
         private void radMenuItemSettings_Click(object sender, EventArgs e)
         {
             if (ShowSettings(FormStartPosition.CenterParent))
+            {
                 FillData();
+            }
         }
         //--------------------------------------------------------------------------
         private bool ShowSettings(FormStartPosition sp)
@@ -648,6 +679,17 @@ namespace QuickVerbs
         private void toolStripMenuItemRestore_Click(object sender, EventArgs e)
         {
             RestoreVerbs();
+        }
+        //--------------------------------------------------------------------------
+        public void timerLesson_Tick(object sender, EventArgs e)
+        {
+            if (timerOut)
+            {
+                LessonForm lf = new LessonForm(this);
+                lf.Owner = this;
+                lf.Show();
+            }
+            timerOut = true;
         }
         //--------------------------------------------------------------------------
     }

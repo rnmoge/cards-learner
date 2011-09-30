@@ -11,15 +11,16 @@ namespace QuickVerbs
 {
     public partial class EditVerbs : Telerik.WinControls.UI.RadForm
     {
-        MainForm mainForm;
         private dbFacade df = new dbFacade();
-
+        //--------------------------------------------------------------------------
         public EditVerbs(MainForm mainForm)
         {
             InitializeComponent();
-            this.mainForm = mainForm;
+
             if (mainForm.radGridView.SelectedRows.Count <= 1)
             {
+                this.Text = String.Format("Глагол '{0}'", mainForm.radGridView.CurrentRow.Cells[0].Value.ToString());
+
                 if ((mainForm.radGridView.CurrentRow.Cells[9].Value == null) ||
                     (mainForm.radGridView.CurrentRow.Cells[9].Value.ToString() == String.Empty))
                 {

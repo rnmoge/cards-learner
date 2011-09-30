@@ -236,9 +236,9 @@ namespace QuickVerbs
             this.radLabelÑשדעוÑשךךףסוÔעûצףךû.AutoSize = false;
             this.radLabelÑשדעוÑשךךףסוÔעûצףךû.Location = new System.Drawing.Point(12, 102);
             this.radLabelÑשדעוÑשךךףסוÔעûצףךû.Name = "radLabelÑשדעוÑשךךףסוÔעûצףךû";
-            this.radLabelÑשדעוÑשךךףסוÔעûצףךû.Size = new System.Drawing.Size(89, 44);
+            this.radLabelÑשדעוÑשךךףסוÔעûצףךû.Size = new System.Drawing.Size(105, 44);
             this.radLabelÑשדעוÑשךךףסוÔעûצףךû.TabIndex = 4;
-            this.radLabelÑשדעוÑשךךףסוÔעûצףךû.Text = "Êמכטקוסעגמ ןנאגטכüםûץ מעגועמג:";
+            this.radLabelÑשדעוÑשךךףסוÔעûצףךû.Text = "Êמכטקוסעגמ ןנאגטכüםûץ מעגועמג ןמהנÿה:";
             // 
             // radSpinEditorCountRightAnswers
             // 

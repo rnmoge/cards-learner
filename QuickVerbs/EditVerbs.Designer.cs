@@ -43,7 +43,7 @@ namespace QuickVerbs
             // 
             this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(88, 90);
+            this.btnCancel.Location = new System.Drawing.Point(116, 90);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(70, 24);
             this.btnCancel.TabIndex = 3;
@@ -54,7 +54,7 @@ namespace QuickVerbs
             // 
             this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Location = new System.Drawing.Point(12, 90);
+            this.btnOK.Location = new System.Drawing.Point(40, 90);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(70, 24);
             this.btnOK.TabIndex = 2;
@@ -83,7 +83,7 @@ namespace QuickVerbs
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(170, 129);
+            this.ClientSize = new System.Drawing.Size(198, 129);
             this.Controls.Add(this.radRadioButtonUncheck);
             this.Controls.Add(this.radRadioButtonCheck);
             this.Controls.Add(this.btnCancel);
