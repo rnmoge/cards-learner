@@ -12,7 +12,7 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="RightAnswers" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">10</Value>
+      <Value Profile="(Default)">5</Value>
     </Setting>
     <Setting Name="LessonVerbs" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">5</Value>
@@ -22,6 +22,9 @@
     </Setting>
     <Setting Name="CurrentLevelName" Type="System.String" Scope="User">
       <Value Profile="(Default)">Elementary</Value>
+    </Setting>
+    <Setting Name="LessonPos" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">-1, -1</Value>
     </Setting>
   </Settings>
 </SettingsFile>

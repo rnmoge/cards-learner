@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Quick Verbs")]
+[assembly: AssemblyTitle("QuickVerbs")]
 [assembly: AssemblyDescription("Обучающая программа для эффективного и быстрого запоминания английских неправильных глаголов.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Practical English LLC")]
+[assembly: AssemblyCompany("Practical English LLC (Solarwind LLC)")]
 [assembly: AssemblyProduct("QuickVerbs")]
-[assembly: AssemblyCopyright("Copyright ©  2011 Practical English")]
+[assembly: AssemblyCopyright("Copyright ©  2011 Practical English  (Solarwind)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
