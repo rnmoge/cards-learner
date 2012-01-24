@@ -1,0 +1,4 @@
+sqlite3.exe %appdata%\Gajim\logs.db
+sqlite> .output C:\backup.sql
+sqlite> .dump
+sqlite> .quit
