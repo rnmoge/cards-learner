@@ -372,6 +372,7 @@ namespace QuickVerbs
             this.Text = "Урок";
             this.ThemeName = "Desert";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LessonForm_FormClosing);
+            this.Load += new System.EventHandler(this.LessonForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radTextBoxInfinitive)).EndInit();
             this.radTextBoxInfinitive.ResumeLayout(false);
             this.radTextBoxInfinitive.PerformLayout();

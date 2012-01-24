@@ -446,7 +446,7 @@
             this.radLabelExample3.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.radLabelExample3.Location = new System.Drawing.Point(11, 170);
             this.radLabelExample3.Name = "radLabelExample3";
-            this.radLabelExample3.Size = new System.Drawing.Size(251, 65);
+            this.radLabelExample3.Size = new System.Drawing.Size(251, 80);
             this.radLabelExample3.TabIndex = 53;
             this.radLabelExample3.Text = "Пример 3";
             // 

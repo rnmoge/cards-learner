@@ -25,11 +25,24 @@ namespace QuickVerbs
         const string sCatNumber = "CategoryNumber = {0}";
 
         private dbFacade df = new dbFacade();
+        public dbFacade Df
+        {
+            get { return df; }
+            set { df = value; }
+        }
+
         public DataTable dt = new DataTable();
         public DataTable dtc = new DataTable();
         public DataTable query = new DataTable();
         public DataView dv;
         private int category = 1;
+
+        public int Category
+        {
+            get { return category; }
+            set { category = value; }
+        }
+
         private string categoryName;
         private bool firstStart = true;
         private bool timerOut = true;
