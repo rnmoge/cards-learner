@@ -13,12 +13,17 @@ namespace QuickVerbs
     public partial class LessonForm : Telerik.WinControls.UI.RadForm
     {
         MainForm mainForm;
+        public DataTable dt = new DataTable();
+        int VerbLessonCount = 1;
+
         //--------------------------------------------------------------------------
         public LessonForm(MainForm mainForm)
         {
             InitializeComponent();
             this.mainForm = mainForm;
             mainForm.timerLesson.Enabled = false;
+
+            VerbLessonCount = Properties.Settings.Default.LessonVerbs;
 
             Point p = new Point();
 
@@ -35,6 +40,49 @@ namespace QuickVerbs
             {
                 radButtonNext.Visible = false;
             }
+        }
+        //--------------------------------------------------------------------------
+        private void LessonForm_Load(object sender, EventArgs e)
+        {
+            dt = mainForm.Df.FetchAll("CurrentVerbs", String.Format("WHERE CategoryNumber = {0} AND Closed = \"false\"", mainForm.Category), "FirstForm, FirstFormSound, SecondForm, SecondFormSound, ThirdForm, ThirdFormSound, Translate, CategoryNumber, CategoryName, Closed, Example1, ExampleSound1, Example2, ExampleSound2, Example3, ExampleSound3, RightAnswers, ID, ID_Verb, StudyLevel");
+
+            //TODO: если не будет вообще - то вывести, что уровень выучен и вопроc о переводе на новый уровень
+
+            List<int> inxexist = new List<int>();
+            //Продолжение
+            //DataRow[] dr1 = new DataRow[VerbLessonCount];
+            //dr1 = dt.Select("StudyLevel > 0");
+
+            DataRow[] dr2 = dt.Select("StudyLevel = 0");
+
+            //Сколько глаголов нужно подгрузить
+            //TODO:
+            int newCount = VerbLessonCount - 0; //dr1.Length;
+
+            //Новые
+            //DataRow[] dr0 = new DataRow[newCount];
+
+            Random rn = new Random(dr2.Length-1);
+
+            //if (dr1.Length < VerbLessonCount)
+            //{
+             //   for (int i = 0; i < newCount; i++)
+            //    {
+                    //TODO:
+            //        int inx = rn.Next();
+
+           //         dr0[i] = dr2[inx];
+           //         inxexist.Add(inx);
+            //    }
+          //  }
+
+            radTextBoxPastParticiple.Text = dr2[0][0].ToString();
+            radTextBoxInfinitive.Text = dr2[0][2].ToString();
+            radTextBoxPast.Text = dr2[0][4].ToString();
+            radLabelExample1.Text = dr2[0][10].ToString();
+            radLabelExample2.Text = dr2[0][12].ToString();
+            radLabelExample3.Text = dr2[0][14].ToString();
+
         }
         //--------------------------------------------------------------------------
         private void CloseLessons()

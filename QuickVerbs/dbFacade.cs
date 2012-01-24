@@ -23,11 +23,11 @@ using System.Collections;
 
 namespace QuickVerbs
 {
-    class dbFacade
+    public class dbFacade
     {
         #region Настройки
         //путь к файлу базы
-        public static string filename = Path.Combine(Application.StartupPath, "QuickVerbs.db");
+        public static string filename = Path.Combine(Application.StartupPath, "QV.db");
         //строка подключения
         string ConnectionString = string.Format("data source={0};New=True;UseUTF16Encoding=True", filename);
         #endregion
@@ -628,7 +628,7 @@ namespace QuickVerbs
     /// <summary>
     /// Класс для передачи параметра
     /// </summary>
-    class Parameter
+    public class Parameter
     {
         #region Поля
         string _columnName;
@@ -667,7 +667,7 @@ namespace QuickVerbs
     /// <summary>
     /// Коллекция параметров
     /// </summary>
-    class ParametersCollection : CollectionBase
+    public class ParametersCollection : CollectionBase
     {
         /// <summary>
         /// Добавить параметр в коллекцию
