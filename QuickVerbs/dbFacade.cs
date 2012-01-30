@@ -27,7 +27,7 @@ namespace QuickVerbs
     {
         #region Настройки
         //путь к файлу базы
-        public static string filename = Path.Combine(Application.StartupPath, "QV.db");
+        public static string filename = Path.Combine(Application.StartupPath, "QuickVerbs.db");
         //строка подключения
         string ConnectionString = string.Format("data source={0};New=True;UseUTF16Encoding=True", filename);
         #endregion
