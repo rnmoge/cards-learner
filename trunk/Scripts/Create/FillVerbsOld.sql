@@ -17,9 +17,6 @@
 --VALUES(38, 'bust', 'bust; busted', 'bust; busted', 'разжаловать', '', '', '');
 
 --INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
---VALUES(40, 'can', 'could', 'been able', 'мочь; уметь', '', '', '');
-
---INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
 --VALUES(43, 'chide', 'chid; chided', 'chid; chided; chidden', 'бранить', '', '', '');
 
 --INSERT INTO Verbs(ID, FirstForm, SecondForm, ThirdForm, Translate, Example1, Example2, Example3)
